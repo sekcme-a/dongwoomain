@@ -5,6 +5,7 @@ import styles from "src/info/MapIndex.module.css"
 import { useState, useEffect } from "react"
 import useData from "context/data"
 import EditButton from "src/admin/EditButton"
+import HeadMeta from "src/public/HeadMeta"
 const Map = () => {
   const {data, fetch_data} = useData()
   const [fetchedData, setFetchedData] = useState({
@@ -32,6 +33,11 @@ const Map = () => {
 
   return(
     <>
+      <HeadMeta
+        title="동우그룹-오시는 길"
+        description="동우그룹으로 오시는 길 입니다."
+        url="https://xn--2i0bm5iryeh7q.kr/info/map"
+      />
 
       <PageHeader main="동우그룹" sub="오시는 길" link="/info/greet"/>
       

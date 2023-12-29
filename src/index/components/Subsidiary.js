@@ -53,7 +53,7 @@ const Card = () => {
             </div>
             <div className={styles.content}>
               <h3>{data?.main?.subSidiaryTitle1}<EditButton type="main" item="subSidiaryTitle1" text="제목" /></h3>
-              <p style={{position:"relative"}}>
+              <p style={{position:"relative", fontWeight:"normal"}}>
                 {data?.main?.subSidiaryContent1}<EditButton type="main" item="subSidiaryContent1" text="내용 " />
               </p>
               <Button onClick={()=>onButtonClick(data?.main?.subSidiaryUrl1)} style={{ color: '#FF5D22' , position:"relative" }} >홈페이지로 이동<EditButton type="main" item="subSidiaryUrl1" text="이동할 링크(https나 http가 포함되어야합니다." /></Button>
@@ -72,7 +72,7 @@ const Card = () => {
             </div>
             <div className={styles.content}>
               <h3>{data?.main?.subSidiaryTitle2}<EditButton type="main" item="subSidiaryTitle2" text="제목" /></h3>
-              <p style={{position:"relative"}}>
+              <p style={{position:"relative", fontWeight:"normal"}}>
                 {data?.main?.subSidiaryContent2}<EditButton type="main" item="subSidiaryContent2" text="내용 " />
               </p>
               <Button onClick={()=>onButtonClick(data?.main?.subSidiaryUrl1)} style={{ color: '#FF5D22' , position:"relative" }} >홈페이지로 이동<EditButton type="main" item="subSidiaryUrl2" text="이동할 링크(https나 http가 포함되어야합니다." /></Button>
@@ -91,7 +91,7 @@ const Card = () => {
             </div>
             <div className={styles.content}>
               <h3>{data?.main?.subSidiaryTitle3}<EditButton type="main" item="subSidiaryTitle3" text="제목" /></h3>
-              <p style={{position:"relative"}}>
+              <p style={{position:"relative", fontWeight:"normal"}}>
                 {data?.main?.subSidiaryContent3}<EditButton type="main" item="subSidiaryContent3" text="내용 " />
               </p>
               <Button onClick={()=>onButtonClick(data?.main?.subSidiaryUrl1)} style={{ color: '#FF5D22' , position:"relative" }} >홈페이지로 이동<EditButton type="main" item="subSidiaryUrl3" text="이동할 링크(https나 http가 포함되어야합니다." /></Button>

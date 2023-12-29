@@ -6,6 +6,8 @@ import { useEffect } from "react"
 import PageHeader from "src/public/components/PageHeader"
 import PostCompo from "src/public/components/Post"
 
+import HeadMeta from "src/public/HeadMeta"
+
 const Post = () => {
   const router = useRouter()
   const {id, type} = router.query
@@ -32,6 +34,14 @@ const Post = () => {
 
   return(
     <>
+
+      <HeadMeta
+        title="동우그룹-동행소식"
+        description="동우그룹의 동행소식을 확인하세요."
+        url={`https://xn--2i0bm5iryeh7q.kr/post/${type}/${id}`}
+      />
+
+
       <PageHeader main="공지사항" sub={isLoading ? "" : postsList[id]?.title} link="/article/announcement"/>
 
       {isLoading ? 

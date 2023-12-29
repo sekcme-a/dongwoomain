@@ -5,6 +5,7 @@ import { useRouter } from "next/router"
 import { useState, useEffect } from "react"
 import useData from "context/data"
 import AnnouncementCompo from "src/article/Announcement"
+import HeadMeta from "src/public/HeadMeta"
 
 const Article = () => {
   const router = useRouter()
@@ -38,6 +39,11 @@ const Article = () => {
 
   return(
     <>
+      <HeadMeta
+        title="동우그룹-동행소식"
+        description="동우그룹의 동행소식을 확인하세요."
+        url={`https://xn--2i0bm5iryeh7q.kr/info/article/${type}`}
+      />
       <PageHeader main="동행소식" sub={typeText} link={`/article/${type}`}/>
 
       {isLoading ? <div style={{width:"100vw", marginTop:'100px',marginBottom:"100px",  display:"flex", justifyContent:"center"}}><CircularProgress /></div> : 

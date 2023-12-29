@@ -7,7 +7,7 @@ import Service from "src/index/components/Service"
 import ScrollCount from "src/index/components/ScrollCount"
 import Subsidiary from "src/index/components/Subsidiary"
 import Post from "src/index/components/Post"
-
+import HeadMeta from 'src/public/HeadMeta';
 
 import useData from 'context/data';
 
@@ -20,6 +20,11 @@ const Index2 = () => {
 
     return (
         <>
+            <HeadMeta
+                title="동우그룹"
+                description="공동주택관리 전문기업 동우그룹입니다."
+                url="https://xn--2i0bm5iryeh7q.kr"
+            />
             <Navbar />
             <Banner />
             <AboutUs />
