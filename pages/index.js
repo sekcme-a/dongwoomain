@@ -6,6 +6,7 @@ import JoinNow from "src/index/components/JoinNow"
 import Service from "src/index/components/Service"
 import ScrollCount from "src/index/components/ScrollCount"
 import Subsidiary from "src/index/components/Subsidiary"
+import Post from "src/index/components/Post"
 
 
 import useData from 'context/data';
@@ -24,7 +25,8 @@ const Index2 = () => {
             <AboutUs />
             <JoinNow />
             <Service />
-            <ScrollCount />
+            <Post />
+            {/* <ScrollCount /> */}
             <Subsidiary />
             
         </>
