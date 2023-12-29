@@ -17,6 +17,7 @@ class MyDocument extends Document {
                         src={`//dapi.kakao.com/v2/maps/sdk.js?appkey=da751fb23c7f8cc96a72163af91ed742&libraries=services,clusterer&autoload=false`}
                         strategy="beforeInteractive"
                     />
+                    <link rel="icon" href="/favicon.ico" />
                     {/* <link rel="icon" type="image/png" href="/public/favicon.png"></link> */}
                 </Head>
                 {/* <Script
