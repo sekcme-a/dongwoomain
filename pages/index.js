@@ -8,23 +8,27 @@ import ScrollCount from "src/index/components/ScrollCount"
 import Subsidiary from "src/index/components/Subsidiary"
 import Post from "src/index/components/Post"
 import HeadMeta from 'src/public/HeadMeta';
+import PopUp from "src/index/components/PopUp"
 
 import useData from 'context/data';
 
+import { firestore as db } from 'firebase/firebase';
+
 const Index2 = () => {
     const {data, fetch_data} = useData()
-
     useEffect(()=>{
-        if(!data.main.fetched) fetch_data("main")
+        if(!data.main.fetched) fetch_data("main")   
+
     },[])
 
     return (
         <>
             <HeadMeta
                 title="동우그룹"
-                description="공동주택관리 전문기업 동우그룹입니다."
+                description="공동주택관리 전문기업 동우그룹입니다. 동우그룹은 고객의 만족을 위해 안전하고 합리적인 관리를 제공하며 부동산 자산가치 상승에 기여합니다."
                 url="https://xn--2i0bm5iryeh7q.kr"
             />
+            <PopUp />
             <Navbar />
             <Banner />
             <AboutUs />
