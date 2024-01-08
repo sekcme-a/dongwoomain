@@ -64,9 +64,9 @@ const Greetings = () => {
         </div>
 
         <div className={styles.content_container}>
-          <h3 style={{position:"relative"}}>안녕하십니까<br /> 주식회사 동우그룹 <strong>회장 {greetData.name} <EditButton type="greet" item="name" text="회장명" /></strong>입니다. </h3>
+          <h3 style={{position:"relative"}}>안녕하십니까<br /> 동우그룹 <strong>회장 {greetData.name} <EditButton type="greet" item="name" text="회장명" /></strong>입니다. </h3>
           <p style={{position:"relative"}}>{greetData.content}<EditButton type="greet" item="content" text="인사말 작성" /></p>
-          <h4>{`(주)동우개발 회장 ${greetData.name} 배상`}</h4>
+          <h4>{`동우그룹 회장 ${greetData.name} 배상`}</h4>
           <img src={greetData.signImg} />
           <div style={{position:"relative"}}><EditButton type="greet" item="signImg" text="사인 이미지 삽입" mode="image" defaultImg="https://cdn.imweb.me/upload/S202104058bb2801ba27b7/d1d00c82e785b.png"/></div>
           
