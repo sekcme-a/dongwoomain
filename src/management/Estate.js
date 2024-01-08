@@ -47,7 +47,8 @@ const Building = () => {
       <motion.h2 {...initial(0,-50,0)} animate={{...start(0.5,0.2)}} style={{position:"relative"}}>{fetchedData.text1}<EditButton type="estate" item="text1" text="텍스트"  /></motion.h2>
       <motion.div {...initial(0,-50,0)} animate={{...start(0.5,0.4)}} className={styles.border} />
       <motion.h3 {...initial(0,50,0)} animate={{...start(1,1.0)}} style={{position:"relative"}}>{fetchedData.text2}<EditButton type="estate" item="text2" text="텍스트"  /></motion.h3>
-      <motion.div className={styles.image_container} ref={inViewRef} {...initial(0,0,50)} animate={ani1}><img src={fetchedData.imgUrl} alt="부동산자산관리" />
+      <motion.div className={styles.image_container} ref={inViewRef} {...initial(0,0,50)} animate={ani1}>
+        <img src={fetchedData.imgUrl} alt="부동산자산관리"  style={{width:"120%"}}/>
         <EditButton type="estate" item="imgUrl" text="이미지 삽입" mode="image" defaultImg="https://cdn.imweb.me/thumbnail/20220512/446fb2e11de64.jpg"/>
       </motion.div>
     </div>
