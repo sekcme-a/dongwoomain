@@ -5,7 +5,7 @@ class MyDocument extends Document {
     render() {
         return (
             <Html lang="kr">
-                <Head>ㅈ
+                <Head>
                     <meta charSet="UTF-8" />
                     <meta name="naver-site-verification" content="519026da1e1f649d7ac7f81133328175fe47fa48" />
                     <meta name="google-site-verification" content="KYB6KE6U0vUi9GHkbWT_hWogRp4KEDHdhGVSC00dn2s" />
