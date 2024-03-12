@@ -134,7 +134,7 @@ const Footer = () =>  {
                     <div className="copyright-area">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-sm-6 col-md-6">
-                                <p><i className="far fa-copyright"></i> 2023 HM</p>
+                                <p><i className="far fa-copyright"></i> 2024 동우그룹</p>
                             </div>
 
                             {/* <div className="col-lg-6 col-sm-6 col-md-6">
