@@ -66,47 +66,47 @@ const Footer = () =>  {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/team">
+                                        <Link href="/info/great">
                                             <a>인사말</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/about">
+                                        <Link href="/info/business">
                                             <a>경영방침</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/news1">
+                                        <Link href="/info/map">
                                             <a>오시는 길</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/the-place">
+                                        <Link href="/management/housing">
                                             <a>공동주택관리</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="management/building">
                                             <a>빌딩종합관리</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/events">
+                                        <Link href="/article/announcement">
                                             <a>공지사항</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/article/news">
                                             <a>동행뉴스</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/article/gallery">
                                             <a>동우사보</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/contact">
+                                        <Link href="/service/contact">
                                             <a>사업문의</a>
                                         </Link>
                                     </li>
