@@ -86,7 +86,7 @@ const Footer = () =>  {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="management/building">
+                                        <Link href="/management/building">
                                             <a>빌딩종합관리</a>
                                         </Link>
                                     </li>
