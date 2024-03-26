@@ -11,7 +11,7 @@ const Organization = () =>{
   return(
     <>
       <HeadMeta
-        title="동우그룹-조직도"
+        title="조직도 - 동우그룹"
         description="동우그룹의 조직도를 소개합니다."
         url="https://xn--2i0bm5iryeh7q.kr/info/organization"
       />

@@ -34,7 +34,7 @@ const Map = () => {
   return(
     <>
       <HeadMeta
-        title="동우그룹-오시는 길"
+        title="오시는 길 - 동우그룹"
         description="동우그룹으로 오시는 길 입니다."
         url="https://xn--2i0bm5iryeh7q.kr/info/map"
       />

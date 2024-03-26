@@ -18,10 +18,10 @@ import EditButton from "src/admin/EditButton"
 const Hrd = () => {
   const {data, fetch_data} = useData()
   const [fetchedData, setFetchedData] = useState({
-    text1:`(주)동우개발은 공동주택관리 분야를 선도하고 있습니다.
-  고객 감동서비스를 경영이념으로 실천하며 선진화 된 경영관리 기법을 현장에 적용, 투명한 회계관리 업무를 지원하고 있습니다.`,
-    text2:`아파트 운영예산 수립과 진행 과정을 투명하게 운영하기 위해 회계업무 경험이 풍부한 전문가를 통해 통합교육 및 사업장별 방문을 하여 회계업무를 지원합니다.`,
-    imgUrl: "https://cdn.imweb.me/thumbnail/20210409/e932cb0d2c43b.jpg",
+    text1:`(주)동우개발은 공동주택관리 업계를 선도하고 있습니다.
+고객 감동서비스를 경영이념으로 실천하며 선진화 된 경영관리 기법을 현장에 적용해 고객의 자산가치 증대를 최우선의 목표로 하고 있습니다.`,
+    text2:`(주)동우개발은 분야별 전문이력의 총원과 체계적인 교육 및 관리를 실시합니다.`,
+    imgUrl: "/hrd.png",
     list1: [{title:"직원관리 프로그램", content:`아파트관리 분야의 우수인력을 투명하고 공정하게 선발하여 함께 성장해 나가는 동우개발 인력관리 시스템을 운영하고 있습니다.`}],
     list2: [
       {title:"인성교육", content:"책임감, 소속감, 신용교육 등 아파트 회계관리 업무를 위한 인성교육 실시"},
@@ -77,7 +77,7 @@ const Hrd = () => {
       <motion.h3 {...initial(0,50,0)} animate={{...start(1,1.0)}}>{fetchedData.text2}<EditButton type="financial" item="text2" text="텍스트" /></motion.h3>
       <motion.div className={styles.image_container} ref={inViewRef} {...initial(0,0,50)} animate={ani1}>
         <img src={fetchedData.imgUrl} alt="회계관리"  style={{width:"120%"}} />
-        <EditButton type="financial" item="imgUrl" text="이미지 삽입" mode="image" defaultImg="https://cdn.imweb.me/thumbnail/20210409/e932cb0d2c43b.jpg"/>
+        <EditButton type="financial" item="imgUrl" text="이미지 삽입" mode="image" defaultImg="/hrd.png"/>
       </motion.div>
 
       <div className={styles.border2} />  

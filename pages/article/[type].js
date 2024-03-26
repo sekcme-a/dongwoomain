@@ -6,6 +6,7 @@ import { useState, useEffect } from "react"
 import useData from "context/data"
 import AnnouncementCompo from "src/article/Announcement"
 import HeadMeta from "src/public/HeadMeta"
+import Head from "next/head"
 
 const Article = () => {
   const router = useRouter()
@@ -40,7 +41,7 @@ const Article = () => {
   return(
     <>
       <HeadMeta
-        title="동우그룹-동행소식"
+        title="동행소식 - 동우그룹"
         description="동우그룹의 동행소식을 확인하세요."
         url={`https://xn--2i0bm5iryeh7q.kr/info/article/${type}`}
       />

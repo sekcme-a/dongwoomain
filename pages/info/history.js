@@ -15,8 +15,8 @@ const History = () =>{
   return(
     <>
       <HeadMeta
-        title="동우그룹-그룹연혁"
-        description="동우그룹의 그룹연혁입니다."
+        title="그룹연혁 - 동우그룹"
+        description="동우그룹의 주요 사건과 발전 과정, 동우그룹의 연혁을 소개합니다."
         url="https://xn--2i0bm5iryeh7q.kr/info/history"
       />
 

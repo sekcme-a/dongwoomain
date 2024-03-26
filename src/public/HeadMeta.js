@@ -3,7 +3,7 @@ import Head from "next/head";
 const HeadMeta = ({ title, description, url }) => {
   return (
     <Head>
-      <title>{title || "동우그룹"}</title>
+      <title>{title || "동우그룹 - 깨끗하고 투명한 관리"}</title>
       <meta
         name="description"
         content={
@@ -12,7 +12,7 @@ const HeadMeta = ({ title, description, url }) => {
         }
       />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta property="og:title" content={title || "동우그룹"} />
+      <meta property="og:title" content={title || "동우그룹 - 깨끗하고 투명한 관리"} />
       <meta property="og:description"
         content={
         description ||

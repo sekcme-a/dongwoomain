@@ -9,8 +9,8 @@ const Estate = () => {
     <>
 
       <HeadMeta
-        title="동우그룹-인사관리"
-        description="동우그룹의 인사관리에 대해 소개드립니다."
+        title="인사관리 - 동우그룹"
+        description="(주)동우개발은 분야별 전문이력의 총원과 체계적인 교육 및 관리를 실시합니다."
         url="https://xn--2i0bm5iryeh7q.kr/management/hrd"
       />
 

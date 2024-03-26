@@ -12,8 +12,8 @@ const Greet = () =>{
   return(
     <>
       <HeadMeta
-        title="동우그룹-건의사항"
-        description="동우그룹에 건의사항을 보내주세요."
+        title="건의사항 - 동우그룹"
+        description="동우그룹에 건의사항을 보내주세요. 빠른 시일내에 답변해드리겠습니다."
         url="https://xn--2i0bm5iryeh7q.kr/service/recommand"
       />
 

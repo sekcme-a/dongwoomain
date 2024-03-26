@@ -31,9 +31,11 @@ const AboutUs = () => {
                                 <p className={styles.text} style={{position:"relative"}}>{data.main.aboutUsContent}<EditButton type="main" item="aboutUsContent" text="내용" /></p>
 
                                 <Link href="/info/business">
-                                    <a className="read-more-btn">
+                                    {/* <a className="read-more-btn"> */}
+                                    <div className="read-more-btn" style={{cursor:"pointer"}}>
                                         자세히 보기 <i className="flaticon-next"></i>
-                                    </a>
+                                    </div>
+                                    {/* </a> */}
                                 </Link>
                             </div>
                         </div>

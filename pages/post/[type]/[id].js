@@ -36,7 +36,7 @@ const Post = () => {
     <>
 
       <HeadMeta
-        title="동우그룹-동행소식"
+        title="동행소식 - 동우그룹"
         description="동우그룹의 동행소식을 확인하세요."
         url={`https://xn--2i0bm5iryeh7q.kr/post/${type}/${id}`}
       />

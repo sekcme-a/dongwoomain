@@ -21,9 +21,9 @@ const Housing = () => {
   const [fetchedData, setFetchedData] = useState({
     text1:`(주)동우개발은 공동주택관리 업계를 선도하고 있습니다.
   고객 감동서비스를 경영이념으로 실천하며 선진화 된 경영관리 방법을 현장에 적용하여 공동주택관리 업계를 선도하는 기업으로서의 책임을 다하고 있습니다.`,
-    imgUrl1: `https://cdn.imweb.me/thumbnail/20210407/f36753181e009.png`,
+    imgUrl1: `/handonhand.png`,
     text2:`공동주택 종합관리는 건물시설관리, 인력관리, 회계관리, 경비보안, 조경, 미화, 위생관리 등 다양한 전문분야를 아우르는 복잡한 업무로서 축적된 경험과 기술력을 바탕으로 서비스를 지원하고 있습니다.`,
-    imgUrl2: `https://cdn.imweb.me/thumbnail/20210422/cd4ec2f5e5a20.png`,
+    imgUrl2: `/housing.png`,
   
     text3: `(주)동우개발의 고객 서비스 질 향상을 위한 3S 시스템 구현`,
     smile: `건강한 얼굴, 미소 머금은 얼굴. 단정한 용모, 명랑한 음성, 정중한 태도, 평소 상황에 따른 대응훈련.`,
@@ -90,11 +90,11 @@ useEffect(() => {
       <motion.h6 {...initial(0,0,30)} animate={{...start(1,0)}} style={{position:"relative"}}>{fetchedData.text1}<EditButton type="housing" item="text1" text="텍스트"  /></motion.h6>
 
       <motion.img {...initial(0,0,30)} animate={ani2} ref={inViewRef2} src={fetchedData.imgUrl1} alt="이미지1" style={{position:"relative"}}/>
-      <div style={{position:"relative"}}><EditButton type="housing" item="imgUrl1" text="이미지 삽입" mode="image" defaultImg="https://cdn.imweb.me/thumbnail/20210407/f36753181e009.png"/></div>
+      <div style={{position:"relative"}}><EditButton type="housing" item="imgUrl1" text="이미지 삽입" mode="image" defaultImg="/handonhand.png"/></div>
       
       <motion.h6 {...initial(0,0,30)} animate={ani3} ref={inViewRef3}style={{position:"relative", marginTop:"80px"}}>{fetchedData.text2}<EditButton type="housing" item="text2" text="텍스트"  /></motion.h6>
       <motion.img {...initial(0,0,30)} animate={ani4} ref={inViewRef4} src={fetchedData.imgUrl2}  alt="이미지2"></motion.img>
-      <div style={{position:"relative"}}><EditButton type="housing" item="imgUrl2" text="이미지 삽입" mode="image" defaultImg="https://cdn.imweb.me/thumbnail/20210422/cd4ec2f5e5a20.png"/></div>
+      <div style={{position:"relative"}}><EditButton type="housing" item="imgUrl2" text="이미지 삽입" mode="image" defaultImg="/housing.png"/></div>
 
       <motion.h3 {...initial(0,0,30)} animate={ani5} ref={inViewRef5}>3S</motion.h3>
       <motion.h4 {...initial(0,0,30)} animate={ani6} ref={inViewRef6} style={{position:"relative"}}>{fetchedData.text3}<EditButton type="housing" item="text3" text="텍스트"  /></motion.h4>

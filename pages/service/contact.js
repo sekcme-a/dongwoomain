@@ -10,8 +10,8 @@ const Greet = () =>{
   return(
     <>
       <HeadMeta
-        title="동우그룹-사업문의"
-        description="동우그룹에 사업문의를 하실 수 있습니다."
+        title="사업문의 - 동우그룹"
+        description="동우그룹에 사업문의를 하실 수 있습니다. 동우그룹에 문의해 보세요. "
         url="https://xn--2i0bm5iryeh7q.kr/service/contact"
       />
       <PageHeader main="고객서비스" sub="사업문의" link="/service/contact"/>

@@ -17,8 +17,8 @@ const Greet = () =>{
   return(
     <>
       <HeadMeta
-        title="동우그룹-인사말"
-        description="동우그룹의 인사말입니다."
+        title="인사말 - 동우그룹"
+        description="안녕하십니까, 동우그룹 회장 이육행 입니다. 인사말을 통해 우리의 목표와 가치에 대해 공유하고자 합니다."
         url="https://xn--2i0bm5iryeh7q.kr/info/greet"
       />
       <PageHeader main="동우그룹" sub="인사말" link="/info/greet"/>

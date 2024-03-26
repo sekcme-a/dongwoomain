@@ -12,7 +12,6 @@ import PopUp from "src/index/components/PopUp"
 
 import useData from 'context/data';
 
-import { firestore as db } from 'firebase/firebase';
 
 const Index2 = () => {
     const {data, fetch_data} = useData()
@@ -24,10 +23,11 @@ const Index2 = () => {
     return (
         <>
             <HeadMeta
-                title="동우그룹"
+                title="동우그룹 - 깨끗하고 투명한 관리"
                 description="공동주택관리 전문기업 동우그룹입니다. 동우그룹은 고객의 만족을 위해 안전하고 합리적인 관리를 제공하며 부동산 자산가치 상승에 기여합니다."
                 url="https://xn--2i0bm5iryeh7q.kr"
             />
+
             <PopUp />
             <Navbar />
             <Banner />
