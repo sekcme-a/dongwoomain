@@ -51,7 +51,7 @@ const Banner = () => {
                                                 <div
                                                     className="optional-btn"
                                                     onClick={ () => setToggler(!toggler) }
-                                                    style={{marginLeft:"20px"}}
+                                                    // style={{marginLeft:"20px"}}
                                                 > 
                                                     <i className="flaticon-play-button"></i> 소개영상 <EditButton type="main" item="introUrl" text="소개영상 URL" />
                                                 </div>
