@@ -24,6 +24,7 @@ const HeadMeta = ({ title, description, url }) => {
       <meta property="og:site_name" content="동우그룹" />
       <meta name="keywords" content="동우그룹,이육행,회장 이육행,(주)동우그룹,dongwoo,dongwoogroup"/>
       <meta property="og:article:author" content="동우그룹" />
+      <link rel="canonical" href="https://xn--2i0bm5iryeh7q.kr" />
     </Head>
   );
 };
