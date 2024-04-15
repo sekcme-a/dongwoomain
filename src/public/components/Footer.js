@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 
 import EditButton from 'src/admin/EditButton';
 import useData from 'context/data';
+import Image from 'next/image';
 
 const Footer = () =>  {
     const {data, fetch_data} = useData()
@@ -22,7 +23,7 @@ const Footer = () =>  {
                                 <div className="logo">
                                     <Link href="/">
                                         <a>
-                                            <img src="/logo-white.png" alt="image" />
+                                            <Image src="/logo-white.png" alt="동우그룹 로고" width={120} height={50} objectFit='contain'/>
                                         </a>
                                     </Link>
 

@@ -44,12 +44,22 @@ const Card = () => {
       <Grid item xs={12} sm={6} md={4} display="flex" justifyContent={monitorWidth>1190 ? "end" : "center"} style={{padding:"20px 0"}}>
         <div className={styles.container1}>
           <div className={styles.card}>
-            <div className={styles.image}>
-              <img
+            <div className={styles.image} >
+              {/* <img
                 src={data?.main?.subSidiaryImg1 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FsubSidiaryImg1?alt=media&token=6d077f54-7065-4f20-bb97-2cffb06e6932"}
                 alt="동우개발 로고"
-              /><EditButton type="main" item="subSidiaryImg1" text="이미지 삽입" mode="image" defaultImg="/example-logo.png"/>
-              {/* <Image width={200} height={200} src="/logo-black.png" alt="동우개발 로고" /> */}
+              /> */}
+              <Image
+                src={data?.main?.subSidiaryImg1 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FsubSidiaryImg1?alt=media&token=6d077f54-7065-4f20-bb97-2cffb06e6932"}
+                alt="동우개발 로고"
+                width={300}
+                height={200}
+                objectFit='contain'
+                style={{height:"100%"}}
+                loading="lazy"
+              />
+              <EditButton type="main" item="subSidiaryImg1" text="이미지 삽입" mode="image" defaultImg="/example-logo.png"/>
+  
             </div>
             <div className={styles.content}>
               <h3>{data?.main?.subSidiaryTitle1 ?? "동우개발"}<EditButton type="main" item="subSidiaryTitle1" text="제목" /></h3>
@@ -65,10 +75,16 @@ const Card = () => {
         <div className={styles.container2}>
           <div className={styles.card}>
             <div className={styles.image}>
-            <img
-                src={data?.main?.subSidiaryImg2 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FsubSidiaryImg2?alt=media&token=2610edf6-3000-470c-8622-fba8d7b0a4b5"}
+              <Image
+                 src={data?.main?.subSidiaryImg2 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FsubSidiaryImg2?alt=media&token=2610edf6-3000-470c-8622-fba8d7b0a4b5"}
                 alt="혜진종합관리 로고"
-              /><EditButton type="main" item="subSidiaryImg2" text="이미지 삽입" mode="image" defaultImg="/example-logo.png"/>
+                width={300}
+                height={200}
+                objectFit='contain'
+                style={{height:"100%"}}
+                loading="lazy"
+              />
+              <EditButton type="main" item="subSidiaryImg2" text="이미지 삽입" mode="image" defaultImg="/example-logo.png"/>
             </div>
             <div className={styles.content}>
               <h3>{data?.main?.subSidiaryTitle2 ?? "혜진종합관리"}<EditButton type="main" item="subSidiaryTitle2" text="제목" /></h3>
@@ -84,10 +100,18 @@ const Card = () => {
         <div className={styles.container3}>
           <div className={styles.card}>
             <div className={styles.image}>
-            <img
+              
+              <Image
                 src={data?.main?.subSidiaryImg3 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FsubSidiaryImg3?alt=media&token=7d7d0eaf-a1bf-496e-a908-e749cc473336"}
                 alt="삼성조경 로고"
-              /><EditButton type="main" item="subSidiaryImg3" text="이미지 삽입" mode="image" defaultImg="/example-logo.png"/>
+                width={300}
+                height={200}
+                objectFit='contain'
+                style={{height:"100%"}}
+                loading="lazy"
+              />
+              
+              <EditButton type="main" item="subSidiaryImg3" text="이미지 삽입" mode="image" defaultImg="/example-logo.png"/>
             </div>
             <div className={styles.content}>
               <h3>{data?.main?.subSidiaryTitle3 ?? "삼성조경"}<EditButton type="main" item="subSidiaryTitle3" text="제목" /></h3>

@@ -4,6 +4,7 @@ import { NavbarList } from 'src/public/data/navbar';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import EditButton from 'src/admin/EditButton';
 import useData from 'context/data';
+import Image from 'next/image';
 
 const NavbarTwo = () => {
     const [collapsed, setCollapsed] = useState(true);
@@ -43,10 +44,10 @@ const NavbarTwo = () => {
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src="/logo-white.png" alt="logo" className="white-logo" />
+                                    <Image src="/logo-white.png" alt="logo" className="white-logo" width={120} height={40} objectFit='contain' quality={100}/>
 
                                     {/* For mobile device */}
-                                    <img src="/logo-black.png" alt="logo" className="logo" />
+                                    <Image src="/logo-black.png" alt="logo" className="logo" width={120} height={40} objectFit='contain' quality={100}/>
                                 </a>
                             </Link>
 

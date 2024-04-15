@@ -5,6 +5,7 @@ import { Pagination, Autoplay } from "swiper";
 import useData from 'context/data';
 
 import EditButton from 'src/admin/EditButton';
+import Image from 'next/image';
 
 const Service = () => {
     const {data} = useData()
@@ -114,7 +115,8 @@ const Service = () => {
                                 return(
                                     <SwiperSlide key={index}>
                                         
-                                        <div className="services-box">
+                                        <div className="services-box" >
+                     
                                             <img src={item.imgUrl} alt={item.title} style={{position:"relative"}} />
 
                                             <div className="services-content" style={{position:"relative"}}>

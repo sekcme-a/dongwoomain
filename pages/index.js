@@ -34,7 +34,7 @@ const Index2 = () => {
             <AboutUs />
             <JoinNow />
             <Service />
-            <Post />
+            <Post />    
             {/* <ScrollCount /> */}
             <Subsidiary />
             

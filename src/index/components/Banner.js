@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Autoplay } from "swiper";
 import useData from 'context/data';
 import EditButton from 'src/admin/EditButton';
+import Image from 'next/image';
 
 SwiperCore.use([Navigation, Autoplay]) // Swiper
 
@@ -29,7 +30,14 @@ const Banner = () => {
                     loop={true}
                 >
                     <SwiperSlide>
-                        <div className="main-banner" style={{backgroundImage:`url(${data.main.bannerBg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FbannerBg?alt=media&token=38faae2d-6bc7-4331-9bc9-d743f882fb95"})`}}>
+                        <div className="main-banner" style={{position:"relative"}}
+                        // style={{backgroundImage:`url(${data.main.bannerBg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FbannerBg?alt=media&token=38faae2d-6bc7-4331-9bc9-d743f882fb95"})`}}
+                        >
+                            <Image
+                            src={data.main.bannerBg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FbannerBg?alt=media&token=38faae2d-6bc7-4331-9bc9-d743f882fb95"}
+                            alt="메인 배경"
+                            layout='fill'
+                            />
                             <EditButton
                                 type="main" item="bannerBg" text="배경이미지 삽입" mode="image" defaultImg="/banner1.jpg" 
                                 style={{position:"absolute", top: 150, right: 100}}

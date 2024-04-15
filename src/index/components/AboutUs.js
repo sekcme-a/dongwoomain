@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from "../styles/AboutUs.module.css";
 import EditButton from 'src/admin/EditButton';
 import useData from 'context/data';
+import Image from 'next/image';
 
 const AboutUs = () => {
 
@@ -14,9 +15,18 @@ const AboutUs = () => {
                     <div className="row align-items-center">
 
                         <div className="col-lg-6 col-md-12">
-                            <div className="about-image">
-                                <div className="img1">
-                                    <img src={data.main.aboutUsImg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FaboutUsImg?alt=media&token=7566a5f9-59d2-4e07-a892-67919953adcf"} alt="image" className={styles.img1} />
+                            <div className="about-image" >
+                                <div className="img1" >
+                                    <Image
+                                        src={data.main.aboutUsImg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FaboutUsImg?alt=media&token=7566a5f9-59d2-4e07-a892-67919953adcf"}
+                                        alt="about us"
+                                        width={460}
+                                        height={570}
+                                        loading='lazy'
+                                        objectFit='contain'
+                                        className={styles.img1}
+                                    />
+                                    {/* <img src={data.main.aboutUsImg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FaboutUsImg?alt=media&token=7566a5f9-59d2-4e07-a892-67919953adcf"} alt="image" className={styles.img1} /> */}
                                     <EditButton type="main" item="aboutUsImg" text="이미지 삽입" mode="image" defaultImg="/aboutUs1.jpg"/>
                                 </div>
                             </div>

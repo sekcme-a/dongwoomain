@@ -992,7 +992,7 @@
     border-radius: 50%;
   }
   .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .white-logo {
-    display: none;
+    display: none !important;
   }
   .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .logo {
     display: block !important;
@@ -1407,7 +1407,7 @@
     font-size: 36px;
   }
   .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .white-logo {
-    display: none;
+    display: none !important;
   }
   .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .logo {
     display: block !important;

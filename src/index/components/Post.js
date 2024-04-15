@@ -9,6 +9,7 @@ import { useEffect } from "react"
 
 import { firestore as db } from "firebase/firebase"
 import { useRouter } from "next/router"
+import Image from "next/image"
 
 // export const Card = () => {
 //   const [isHover, setIsHover] = useState(false)
@@ -121,8 +122,11 @@ const Post = () => {
               onClick={()=>{
                 if(!isLiHover1) router.push(`/article/announcement`)}}
             >
-              <img src={data.main.postImg1 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FpostImg1?alt=media&token=61c49ed0-e2d1-4fb8-9693-fd680cbd663f"} alt="공지사항" />
 
+              <Image   loading="lazy"
+                src={data.main.postImg1 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FpostImg1?alt=media&token=61c49ed0-e2d1-4fb8-9693-fd680cbd663f"} alt="공지사항" 
+                layout="fill"
+              />
 
               <div className={styles.gradient_container} />
               <div className={`${styles.content_container} ${isHover ? styles.hover : ""}`}>
@@ -157,7 +161,11 @@ const Post = () => {
               onClick={()=>{
                 if(!isLiHover1) router.push(`/article/news`)}}
             >
-              <img src={data.main.postImg2 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FpostImg2?alt=media&token=6cbed266-1d72-4442-8e6a-8c9a9eff887a"} alt="공지사항" />
+             
+              <Image   loading="lazy"
+                src={data.main.postImg2 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FpostImg2?alt=media&token=6cbed266-1d72-4442-8e6a-8c9a9eff887a"} alt="동행뉴스" 
+                layout="fill"
+              />
               <div className={styles.gradient_container} />
               <div className={`${styles.content_container} ${isHover2 ? styles.hover : ""}`}>
                 <p>News</p>
@@ -191,7 +199,11 @@ const Post = () => {
               onMouseEnter={()=>handleHover3(true)}
               onMouseLeave={()=>handleHover3(false)}
             >
-              <img src={data.main.postImg3 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FpostImg3?alt=media&token=df3a802a-f1ae-4995-afcc-9a1b3da272d4"} alt="공지사항" />
+              <Image
+              loading="lazy"
+src={data.main.postImg3 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FpostImg3?alt=media&token=df3a802a-f1ae-4995-afcc-9a1b3da272d4"} alt="동우24시"
+layout="fill"
+              />
               <div className={styles.gradient_container} />
               <div className={`${styles.content_container} ${isHover3 ? styles.hover3 : ""}`}>
                 <p>Youtube</p>
