@@ -35,7 +35,7 @@ const Map = () => {
     <>
       <HeadMeta
         title="오시는 길 - 동우그룹"
-        description="동우그룹으로 오시는 길 입니다."
+        description="동우그룹으로 오시는 길을 알려드립니다. 주소: 서울특별시 도봉구 시루봉로 234, 동우빌딩 2층"
         url="https://xn--2i0bm5iryeh7q.kr/info/map"
       />
 
@@ -43,41 +43,41 @@ const Map = () => {
       
       <div className={styles.main_container}>
         <h1>오시는 길</h1>
-        <p style={{position:"relative"}}>{fetchedData.subtitle} <EditButton type="map" item="subtitle" text="부제목"/></p>
+        <p style={{position:"relative"}}>{fetchedData.subtitle ?? "동우그룹으로 오시는 길을 알려드립니다."} <EditButton type="map" item="subtitle" text="부제목"/></p>
         <MapCompo title="동우그룹" locX={fetchedData.locX} locY={fetchedData.locY}/>
-        <div className={styles.title} style={{position:"relative"}}><EditButton type="map" item="subtitle" mode="map" text="경도/위도"/>찾아오시는 길</div>
-          <div className={styles.mainContainer}>
+        <h2 className={styles.title} style={{position:"relative"}}><EditButton type="map" item="subtitle" mode="map" text="경도/위도"/>찾아오시는 길</h2>
+          <ul className={styles.mainContainer}>
 
-            <div className={styles.container}>
-              <div className={styles.item} style={{position:"relative"}}>
+            <li className={styles.container}>
+              <h5 className={styles.item} style={{position:"relative"}}>
                 - 주 소 <EditButton type="map" item="address" text="주소"/>
-              </div>
-              <div className={styles.context}>
+              </h5>
+              <p className={styles.context}>
                 {fetchedData.address}<br/>
-              </div>
-            </div>
+              </p>
+            </li>
 
 
-            <div className={styles.container}>
-              <div className={styles.item} style={{position:"relative"}}>
+            <li className={styles.container}>
+              <h5 className={styles.item} style={{position:"relative"}}>
                 - 지하철 역 <EditButton type="map" item="subway" text="지하철 역 "/>
-              </div>
-              <div className={styles.context}>
+              </h5>
+              <p className={styles.context}>
                 {fetchedData.subway}<br/>
-              </div>
-            </div>
+              </p>
+            </li>
 
 
-            <div className={styles.container}>
-              <div className={styles.item} style={{position:"relative"}}>
+            <li className={styles.container}>
+              <h5 className={styles.item} style={{position:"relative"}}>
                 - 버스정류장 <EditButton type="map" item="bus" text="버스정류장"/>
-              </div>
-              <div className={styles.context}>
+              </h5>
+              <p className={styles.context}>
                 {fetchedData.bus}
-              </div>
-            </div>
+              </p>
+            </li>
 
-          </div>
+          </ul>
       </div>
 
     </>

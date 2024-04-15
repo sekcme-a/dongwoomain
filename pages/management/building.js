@@ -10,7 +10,7 @@ const Building = () => {
 
       <HeadMeta
         title="빌딩종합관리 - 동우그룹"
-        description="(주)동우개발은 공동주택관리 분야를 선도하고 있습니다. 동우그룹의 빌딩종합관리에 대해 소개드립니다."
+        description="동우그룹의 빌딩종합관리는 빌딩 관리를 통해 건물의 수명 연장과 재산가치 증대를 위해 서비스를 제공하"
         url="https://xn--2i0bm5iryeh7q.kr/management/building"
       />
 

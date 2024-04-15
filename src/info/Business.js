@@ -10,7 +10,7 @@ const Business = () => {
   const {data, fetch_data} = useData()
   const [fetchedData, setFetchedData] = useState({
     text: `를 이니셜을 모티브로 하여 (주)동우개발 전 직원들이 고객을 향해 친절하게 인사하는 모습을 형상화 한 것이며, 고객 서비스를 최고의 기업 가치로 생각하는 (주)동우개발의 의지를 담아낸 CI 입니다.`,
-    yineum: [
+    yinuem: [
       "전문적이고 혁신적인 관리를 통한 입주민 자산가치 증대",
       "시설 및 입주민등에 대한 철저한 서비스 강화",
       "입주민의 재산보호와 쾌적한 주거환경 조성",
@@ -21,17 +21,17 @@ const Business = () => {
     logoImg:"/logo-black.png"
   })
 
-  useEffect(()=>{
-    if(!data.business.fetched) fetch_data("business")
-  },[])
+  // useEffect(()=>{
+  //   if(!data.business.fetched) fetch_data("business")
+  // },[])
 
-  useEffect(() => {
-    if(data?.business?.fetched){
-      setFetchedData({
-        ...data.business
-      })
-    }
-  },[data?.business])
+  // useEffect(() => {
+  //   if(data?.business?.fetched){
+  //     setFetchedData({
+  //       ...data.business
+  //     })
+  //   }
+  // },[data?.business])
 
   return(
     <div className={styles.main_container}>
@@ -43,7 +43,10 @@ const Business = () => {
 
         <Grid item xs={12} sm={4} md={5}className={styles.image_container}>
           <div style={{position:"relative"}} >
-            <img src={fetchedData.logoImg} alt="logo" className={styles.image}/>
+            <img 
+            src={fetchedData.logoImg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fbusiness%2FlogoImg?alt=media&token=5cfd2670-26c8-4e44-b333-516ef7be1ce7"} 
+            alt="로고" className={styles.image}
+            />
             <EditButton type="business" item="logoImg" text="로고 이미지 삽입" mode="image" defaultImg="/logo-black.png"/>
           </div>
         </Grid>
@@ -60,7 +63,7 @@ const Business = () => {
               <span className={styles.blue_text}>f</span>
               {`idelity)`}
             </strong>
-            {fetchedData.text}
+            {fetchedData.text ?? `를 이니셜을 모티브로 하여 (주)동우개발 전 직원들이 고객을 향해 친절하게 인사하는 모습을 형상화 한 것이며, 고객 서비스를 최고의 기업 가치로 생각하는 (주)동우개발의 의지를 담아낸 CI 입니다.`}
             <EditButton type="business" item="text" text="텍스트"  />
           </p>
         </Grid>

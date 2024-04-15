@@ -89,11 +89,11 @@ useEffect(() => {
     <div className={styles.main_container}>
       <motion.h6 {...initial(0,0,30)} animate={{...start(1,0)}} style={{position:"relative"}}>{fetchedData.text1}<EditButton type="housing" item="text1" text="텍스트"  /></motion.h6>
 
-      <motion.img {...initial(0,0,30)} animate={ani2} ref={inViewRef2} src={fetchedData.imgUrl1} alt="이미지1" style={{position:"relative"}}/>
+      <motion.img {...initial(0,0,30)} animate={ani2} ref={inViewRef2} src={fetchedData.imgUrl1} alt="공동주택관리 이미지" style={{position:"relative"}}/>
       <div style={{position:"relative"}}><EditButton type="housing" item="imgUrl1" text="이미지 삽입" mode="image" defaultImg="/handonhand.png"/></div>
       
       <motion.h6 {...initial(0,0,30)} animate={ani3} ref={inViewRef3}style={{position:"relative", marginTop:"80px"}}>{fetchedData.text2}<EditButton type="housing" item="text2" text="텍스트"  /></motion.h6>
-      <motion.img {...initial(0,0,30)} animate={ani4} ref={inViewRef4} src={fetchedData.imgUrl2}  alt="이미지2"></motion.img>
+      <motion.img {...initial(0,0,30)} animate={ani4} ref={inViewRef4} src={fetchedData.imgUrl2}  alt="공동주택관리 설명"></motion.img>
       <div style={{position:"relative"}}><EditButton type="housing" item="imgUrl2" text="이미지 삽입" mode="image" defaultImg="/housing.png"/></div>
 
       <motion.h3 {...initial(0,0,30)} animate={ani5} ref={inViewRef5}>3S</motion.h3>

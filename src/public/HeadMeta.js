@@ -8,7 +8,7 @@ const HeadMeta = ({ title, description, url }) => {
         name="description"
         content={
           description ||
-          "공동주택관리 전문기업 동우그룹입니다. 동우그룹은 고객의 만족을 위해 안전하고 합리적인 관리를 제공하며 부동산 자산가치 상승에 기여합니다."
+          "공동주택관리 전문기업 동우그룹입니다, 안전하고 합리적인 관리를 제공하며 부동산 자산가치 상승에 기여합니다."
         }
       />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -16,7 +16,7 @@ const HeadMeta = ({ title, description, url }) => {
       <meta property="og:description"
         content={
         description ||
-        "공동주택관리 전문기업 동우그룹입니다. 동우그룹은 고객의 만족을 위해 안전하고 합리적인 관리를 제공하며 부동산 자산가치 상승에 기여합니다."
+        "공동주택관리 전문기업 동우그룹입니다, 안전하고 합리적인 관리를 제공하며 부동산 자산가치 상승에 기여합니다."
       }/>
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url || "https://xn--2i0bm5iryeh7q.kr"} />
@@ -24,7 +24,7 @@ const HeadMeta = ({ title, description, url }) => {
       <meta property="og:site_name" content="동우그룹" />
       <meta name="keywords" content="동우그룹,이육행,회장 이육행,(주)동우그룹,dongwoo,dongwoogroup"/>
       <meta property="og:article:author" content="동우그룹" />
-      <link rel="canonical" href="https://xn--2i0bm5iryeh7q.kr" />
+      <link rel="canonical" href={url||"https://xn--2i0bm5iryeh7q.kr"} />
     </Head>
   );
 };
