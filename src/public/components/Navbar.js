@@ -129,7 +129,7 @@ const NavbarTwo = () => {
                                             <i className="flaticon-call"></i>
                                         </div>
                                         문의하기 :
-                                        <span className="number">{data.main.number}<EditButton  type="main" item="number" text="전화번호"/></span>
+                                        <span className="number">{data.main.number ?? "02) 976-2200"}<EditButton  type="main" item="number" text="전화번호"/></span>
                                         
                                     </div>
 

@@ -29,7 +29,7 @@ const Banner = () => {
                     loop={true}
                 >
                     <SwiperSlide>
-                        <div className="main-banner" style={{backgroundImage:`url(${data.main.bannerBg})`}}>
+                        <div className="main-banner" style={{backgroundImage:`url(${data.main.bannerBg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FbannerBg?alt=media&token=38faae2d-6bc7-4331-9bc9-d743f882fb95"})`}}>
                             <EditButton
                                 type="main" item="bannerBg" text="배경이미지 삽입" mode="image" defaultImg="/banner1.jpg" 
                                 style={{position:"absolute", top: 150, right: 100}}
@@ -38,8 +38,8 @@ const Banner = () => {
                                 <div className="d-table-cell">
                                     <div className="container">
                                         <div className="main-banner-content" style={{zIndex: 100}}>
-                                            <span className="sub-title" style={{position:"relative", zIndex:"100"}}>{data.main.subtitle}<EditButton type="main" item="subtitle" text="부제목"/></span>
-                                            <h1 style={{position:"relative"}}>{data.main.title}<EditButton type="main" item="title" text="제목"/></h1>
+                                            <span className="sub-title" style={{position:"relative", zIndex:"100"}}>{data.main.subtitle ?? "꺠끗하고 투명한 관리"}<EditButton type="main" item="subtitle" text="부제목"/></span>
+                                            <h1 style={{position:"relative"}}>{data.main.title ?? "함께 동행하는, 동우그룹"}<EditButton type="main" item="title" text="제목"/></h1>
 
                                             <div className="btn-box">
                                                 <Link href="/info/greet" legacyBehavior>
@@ -88,21 +88,21 @@ const Banner = () => {
                                         <li>
                                             <i className="flaticon-location"></i>
                                             <span>회사 위치</span>
-                                            <div style={{whiteSpace:"pre-line"}}>{data.main.location}</div>
+                                            <div style={{whiteSpace:"pre-line"}}>{data.main.location ?? "서울 도봉구 시루봉로 234 동우빌딩"}</div>
                                             <EditButton type="main" item="location" text="회사 위치" />
                                         </li>
 
                                         <li>
                                             <i className="flaticon-email"></i>
                                             <span>이메일 주소</span>
-                                            <a href={`mailto:${data.main.email}`}>{data.main.email} <EditButton type="main" item="email" text="이메일" /></a>
+                                            <a href={`mailto:${data.main.email ?? "dongwoodh@hanmail.net"}`}>{data.main.email ??  "dongwoodh@hanmail.net"} <EditButton type="main" item="email" text="이메일" /></a>
                                             {/* <a href="mailto:support@tuam.com">support@tuam.com</a> */}
                                         </li>
 
                                         <li>
                                             <i className="flaticon-calendar"></i>
                                             <span>영업시간</span>
-                                            {data.main.time}<EditButton type="main" item="time" text="영업시간" />
+                                            {data.main.time ?? "월-금 9AM ~ 6PM"}<EditButton type="main" item="time" text="영업시간" />
                                         </li>
                                     </ul>
                                 </div>

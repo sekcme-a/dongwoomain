@@ -84,7 +84,7 @@ const Service = () => {
                     <div className="container">
                         <div className="section-title">
                             <h2>사업분야</h2>
-                            <p style={{fontWeight:"normal", position:"relative"}}>{data.main.serviceSubtitle}<EditButton type="main" item="serviceSubtitle" text="부제목" /></p>
+                            <p style={{fontWeight:"normal", position:"relative"}}>{data.main.serviceSubtitle ?? "동우그룹의 다양한 사업분야를 소개합니다."}<EditButton type="main" item="serviceSubtitle" text="부제목" /></p>
                         </div>
 
                         <Swiper

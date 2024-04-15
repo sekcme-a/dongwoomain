@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import styles from "./OrganizationImage.module.css"
 import useData from "context/data"
 import EditButton from "src/admin/EditButton"
+import Image from "next/image"
 
 
 const OrganizationImage = () => {
@@ -27,7 +28,22 @@ const OrganizationImage = () => {
     <div className={styles.main_container} style={{position:"relative"}}>
       {/* <h1 style={{textAlign:"center", color:"black", fontWeight:'bold'}}>동우그룹의 조직도를 소개합니다.</h1> */}
       <EditButton type="organization" item="imgUrl" text="조직도 이미지 삽입" mode="image" defaultImg="/dwgroup_organization.png"/>
-      <img src={fetchedData.imgUrl} />
+      <div style={{width:"100%",height:"120vh", position:"relative"}}>
+        <Image
+          src={fetchedData.imgUrl}
+          alt="동우그룹 조직도"
+          // width={500}
+          // height={300}
+          // layout="fill"
+          objectFit="contain"
+          // width={0}
+          // height={0}
+          // sizes="70vw"
+          layout="fill"
+          
+          // style={{width:"100%", height:"auto"}}
+        />
+      </div>
     </div>
   )
 }

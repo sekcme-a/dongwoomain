@@ -26,8 +26,8 @@ const Footer = () =>  {
                                         </a>
                                     </Link>
 
-                                    <p style={{fontWeight:"bold", position:"relative"}}>{data?.footer?.leftTitle}<EditButton type="footer" item="leftTitle" text="제목" /></p>
-                                    <p style={{marginTop:"0", position:"relative"}}>{data?.footer?.LeftContent}<EditButton type="footer" item="LeftContent" text="내용"/></p>
+                                    <p style={{fontWeight:"bold", position:"relative"}}>{data?.footer?.leftTitle ?? "회 장 이 육 행"}<EditButton type="footer" item="leftTitle" text="제목" /></p>
+                                    <p style={{marginTop:"0", position:"relative"}}>{data?.footer?.LeftContent ?? "동우그룹은 고객 만족을 위해 함께 동행하여 안전하고 합리적인 관리를 제공하며 자산가치 상승에 기여합니다."}<EditButton type="footer" item="LeftContent" text="내용"/></p>
                                 </div>
 
                                 {/* <ul className="social">
@@ -124,7 +124,13 @@ const Footer = () =>  {
                                     <li><span>Email:</span> <a href="mailto:dongwoodh@hanmail.net">dongwoodh@hanmail.net</a></li>
                                     <li><span>Phone:</span> <a href="tel:029762200">{`02) 976-2200`}</a></li>
                                     <li><span>Fax:</span> <a href="tel:029031297">{`02) 903-1297`}</a></li> */}
-                                    <li style={{whiteSpace:"pre-line", lineHeight:"2"}}>{data?.footer?.RightContent}</li>
+                                    <li style={{whiteSpace:"pre-line", lineHeight:"2"}}>{data?.footer?.RightContent ??
+                                    `주소: 서울특별시 도봉구 시루봉로 234, 동우빌딩 2층
+                                    사업자등록번호: 210-81-24699
+                                    Email: dongwoodh@hanmail.net
+                                    Phone: 02) 976-2200
+                                    Fax: 02) 903-1297`}
+                                    </li>
                                     <EditButton type="footer" item="RightContent" text="내용" />
                                 </ul>
                             </div>
