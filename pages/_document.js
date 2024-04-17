@@ -20,7 +20,6 @@ class MyDocument extends Document {
                         strategy="beforeInteractive"
                     />
                     <link rel="shortcut icon" href="https://xn--2i0bm5iryeh7q.kr/favicon.ico" />
-                    <link rel="canonical" href="https://xn--2i0bm5iryeh7q.kr" />
                     <meta property="og:site_name" content="동우그룹" />
                 </Head>
                 <body>
