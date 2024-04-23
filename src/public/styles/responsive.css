@@ -1,26 +1,26 @@
 @media only screen and (min-width: 767px) and (max-width: 991px){
 
-  .about-image img {
+  .abt-img img {
     /* width: auto; */
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 0 40px;
   }
-  .about-image .img1 {
+  .abt-img .img1 {
     padding-top: 25px;
     max-width: 100%;
   }
-  .about-image .img1::before {
+  .abt-img .img1::before {
     display: block;
   }
-  .about-image img {
+  .abt-img img {
     width: 100%;
   }
-  .about-image .img1 {
+  .abt-img .img1 {
     padding-top: 0;
   }
-  .about-image .img1::before {
+  .abt-img .img1::before {
     display: none;
   }
 }
@@ -46,33 +46,33 @@
   .pt-100 {
     padding-top: 60px;
   }
-  .section-title {
+  .sec-title {
     text-align: center;
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 35px;
   }
-  .section-title .sub-title {
+  .sec-title .subtitle {
     font-size: 16px;
   }
-  .section-title h2 {
+  .sec-title h2 {
     font-size: 26px;
   }
-  .section-title p {
+  .sec-title p {
     font-size: 15px;
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
-  .default-btn {
+  .dwg-single-btn {
     font-size: 14px;
     padding-left: 28px;
     padding-right: 28px;
     padding-top: 14px;
     padding-bottom: 14px;
   }
-  .optional-btn {
+  .opt-btn {
     font-size: 14px;
     top: -2px;
     padding-left: 25px;
@@ -83,52 +83,52 @@
   .home-area::before {
     display: none;
   }
-  .main-banner {
+  .dwg-banner {
     height: 100%;
     padding-top: 170px;
     padding-bottom: 170px;
   }
-  .main-banner-content {
+  .dwg-banner-content {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
   }
-  .main-banner-content .sub-title {
+  .dwg-banner-content .subtitle {
     letter-spacing: 1px;
     font-size: 15px;
     text-transform: capitalize;
   }
-  .main-banner-content h1 {
+  .dwg-banner-content h1 {
     font-size: 30px;
   }
-  .main-banner-content .btn-box {
+  .dwg-banner-content .btn-box {
     margin-top: 23px;
   }
-  .main-banner-content .btn-box .default-btn, .main-banner-content .btn-box .optional-btn {
+  .dwg-banner-content .btn-box .dwg-single-btn, .dwg-banner-content .btn-box .opt-btn {
     display: block;
     width: 100%;
     font-size: 13px;
     margin: 0;
   }
-  .main-banner-content .btn-box .optional-btn {
+  .dwg-banner-content .btn-box .opt-btn {
     margin-top: 12px;
   }
-  .main-banner-content p {
+  .dwg-banner-content p {
     font-size: 15px;
     margin-top: 15px;
   }
-  .main-banner-content form {
+  .dwg-banner-content form {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
     margin-top: 20px;
   }
-  .main-banner-content form .form-group .input-location {
+  .dwg-banner-content form .form-group .input-location {
     width: 100%;
     font-size: 15px;
   }
-  .main-banner-content form .default-btn {
+  .dwg-banner-content form .dwg-single-btn {
     height: 53px;
     line-height: 53px;
     position: relative;
@@ -146,7 +146,7 @@
   .banner-footer {
     display: none;
   }
-  .home-section .main-banner {
+  .dwg-home .dwg-banner {
     padding-bottom: 155px;
   }
   .banner-section {
@@ -154,10 +154,10 @@
     padding-top: 180px;
     padding-bottom: 120px;
   }
-  .banner-section .main-banner-content {
+  .banner-section .dwg-banner-content {
     margin-top: 0;
   }
-  .services-boxes-area {
+  .servBoxes-area {
     margin-top: -55px;
     margin-bottom: -30px;
   }
@@ -179,70 +179,70 @@
   .single-box .hover-content h3 {
     font-size: 20px;
   }
-  .services-box .services-content {
+  .servBox .services-content {
     padding: 25px 20px;
   }
-  .services-box .services-content h3 {
+  .servBox .services-content h3 {
     font-size: 20px;
   }
-  .about-section .container-fluid {
+  .about-section .dwg-con-fluid {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .about-image img {
+  .abt-img img {
     width: 100%;
   }
-  .about-image .img1 {
+  .abt-img .img1 {
     padding-top: 0;
   }
-  .about-image .img1::before {
+  .abt-img .img1::before {
     display: none;
   }
-  .about-image .img2 {
+  .abt-img .img2 {
     position: relative;
     left: 0;
     top: 0;
     border-width: 0;
     margin-top: 15px;
   }
-  .about-image .img3 {
+  .abt-img .img3 {
     position: relative;
     left: 0;
     bottom: 0;
     border-width: 0;
     margin-top: 15px;
   }
-  .about-content {
+  .abt-cont {
     max-width: 100%;
     padding-left: 0;
     margin-top: 30px;
     text-align: center;
   }
-  .about-content .sub-title {
+  .abt-cont .subtitle {
     margin-bottom: 5px;
     font-size: 15px;
   }
-  .about-content h2 {
+  .abt-cont h2 {
     font-size: 26px;
   }
-  .about-content .features-list li {
+  .abt-cont .features-list li {
     padding-left: 15px;
     -ms-flex: 0 0 100%;
     -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .about-content .features-list li .icon {
+  .abt-cont .features-list li .icon {
     font-size: 33px;
     position: relative;
     left: 0;
     top: 0;
     margin-bottom: 3px;
   }
-  .about-content .features-list li span {
+  .abt-cont .features-list li span {
     font-size: 16px;
   }
-  .about-content .read-more-btn {
+  .abt-cont .readmore-btn {
     font-size: 15px;
   }
   .about-title {
@@ -261,7 +261,7 @@
     padding-left: 0;
     margin-top: 12px;
   }
-  .about-text .read-more-btn {
+  .about-text .readmore-btn {
     margin-top: 15px;
     font-size: 15px;
   }
@@ -303,17 +303,17 @@
             flex: 0 0 100%;
     max-width: 100%;
   }
-  .single-services-box {
+  .single-servBox {
     padding: 20px 15px;
   }
-  .single-services-box .icon {
+  .single-servBox .icon {
     font-size: 40px;
     margin-top: -10px;
   }
-  .single-services-box .icon .icon-bg img {
+  .single-servBox .icon .icon-bg img {
     max-height: 100%;
   }
-  .single-services-box h3 {
+  .single-servBox h3 {
     font-size: 18px;
   }
   .partner-title h2 {
@@ -344,7 +344,7 @@
     padding-bottom: 60px;
     padding-right: 15px;
   }
-  .why-choose-us-content .content .sub-title {
+  .why-choose-us-content .content .subtitle {
     font-size: 16px;
   }
   .why-choose-us-content .content h2 {
@@ -396,12 +396,12 @@
   .single-pricing-box .pricing-features-list li {
     font-size: 15px;
   }
-  .join-content {
+  .joincont {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
-  .join-content h2 {
+  .joincont h2 {
     font-size: 28px;
   }
   .single-feedback-item {
@@ -466,7 +466,7 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  .place-content .sub-title {
+  .place-content .subtitle {
     font-size: 15px;
   }
   .place-content h2 {
@@ -513,7 +513,7 @@
     font-size: 20px;
     line-height: 1.4;
   }
-  .single-blog-post .post-content .default-btn {
+  .single-blog-post .post-content .dwg-single-btn {
     padding-top: 13px;
     padding-bottom: 13px;
   }
@@ -823,21 +823,21 @@
     font-size: 15px;
     padding: 12px 25px 10px;
   }
-  .contact-area .section-title {
+  .cont-zone .sec-title {
     margin-bottom: 30px;
   }
-  .contact-info {
+  .cont-inf {
     padding-right: 0;
     margin-bottom: 45px;
   }
-  .contact-info .contact-list {
+  .cont-inf .contList {
     padding-right: 0;
   }
-  .contact-info .contact-list li {
+  .cont-inf .contList li {
     margin-bottom: 20px;
     padding-left: 78px;
   }
-  .contact-info .contact-list li .icon {
+  .cont-inf .contList li .icon {
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -846,13 +846,13 @@
     -webkit-transform: unset;
             transform: unset;
   }
-  .contact-info .contact-list li span {
+  .cont-inf .contList li span {
     font-size: 18px;
   }
-  .contact-info .social {
+  .cont-inf .social {
     padding-left: 80px;
   }
-  .contact-info .social li a {
+  .cont-inf .social li a {
     width: 45px;
     font-size: 15px;
     height: 45px;
@@ -877,45 +877,45 @@
   .event-details .event-details-header .event-info-meta li:last-child {
     margin-bottom: 0;
   }
-  .footer-area {
+  .ft-ar {
     padding-top: 60px;
   }
-  .single-footer-widget p {
+  .single-ftWid p {
     font-size: 14px;
   }
-  .single-footer-widget h3 {
+  .single-ftWid h3 {
     font-size: 20px;
   }
-  .single-footer-widget .footer-quick-links li {
+  .single-ftWid .ft-quickLink li {
     padding-top: 10px;
   }
-  .single-footer-widget .footer-quick-links li a {
+  .single-ftWid .ft-quickLink li a {
     font-size: 13px;
   }
-  .single-footer-widget .footer-contact-info li {
+  .single-ftWid .ft-contInf li {
     font-size: 14px;
   }
-  .copyright-area {
+  .copy-zone {
     margin-top: 30px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .copyright-area p {
+  .copy-zone p {
     font-size: 14px;
   }
-  .copyright-area ul {
+  .copy-zone ul {
     text-align: center;
     margin-top: 15px;
   }
-  .copyright-area ul li {
+  .copy-zone ul li {
     font-size: 14px;
   }
-  .tuam-nav .navbar {
+  .dwg-nav .navbar {
     padding-right: 0;
     padding-left: 0;
   }
-  .tuam-nav .navbar .navbar-nav {
+  .dwg-nav .navbar .navbar-nav {
     margin-top: 20px;
     max-height: 60vh;
     overflow-y: scroll;
@@ -926,29 +926,29 @@
     /* Handle */
     /* Handle on hover */
   }
-  .tuam-nav .navbar .navbar-nav::-webkit-scrollbar {
+  .dwg-nav .navbar .navbar-nav::-webkit-scrollbar {
     width: 10px;
   }
-  .tuam-nav .navbar .navbar-nav::-webkit-scrollbar-track {
+  .dwg-nav .navbar .navbar-nav::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
-  .tuam-nav .navbar .navbar-nav::-webkit-scrollbar-thumb {
+  .dwg-nav .navbar .navbar-nav::-webkit-scrollbar-thumb {
     background: #888;
   }
-  .tuam-nav .navbar .navbar-nav::-webkit-scrollbar-thumb:hover {
+  .dwg-nav .navbar .navbar-nav::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item a {
+  .dwg-nav .navbar .navbar-nav .nav-item a {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item a i {
+  .dwg-nav .navbar .navbar-nav .nav-item a i {
     display: none;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item:first-child a {
+  .dwg-nav .navbar .navbar-nav .nav-item:first-child a {
     margin-left: 13px;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+  .dwg-nav .navbar .navbar-nav .nav-item .dropdown-menu {
     left: 15px;
     position: relative;
     top: 0 !important;
@@ -961,7 +961,7 @@
     padding-bottom: 10px;
     margin-bottom: 10px;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+  .dwg-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
     left: 15px;
     position: relative;
     top: 0 !important;
@@ -974,7 +974,7 @@
     padding-bottom: 10px;
     margin-bottom: 10px;
   }
-  .tuam-nav .navbar .others-option {
+  .dwg-nav .navbar .oth-opt {
     margin: 0;
     border-top: 1px solid #eee;
     padding-top: 15px;
@@ -991,27 +991,27 @@
   .go-top i {
     border-radius: 50%;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .white-logo {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .navbar-brand .white-logo {
     display: none !important;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .logo {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .navbar-brand .logo {
     display: block !important;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item a {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .navbar-nav .nav-item a {
     color: #524552;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .call-us {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .oth-opt .dwg-phone {
     color: #333;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .oth-opt .dwg-single-btn {
     margin-left: 15px;
     background-color: #000;
     padding: 10px 15px;
   }
-  .navbar-area.navbar-style-two.is-sticky .tuam-nav .navbar {
+  .dwg-nvb-area.dwg-nvb-style2.is-sticky .dwg-nav .navbar {
     background-color: transparent;
   }
-  .single-footer-widget .footer-quick-links {
+  .single-ftWid .ft-quickLink {
     margin-right: 0;
   }
 }
@@ -1024,7 +1024,7 @@
             flex: 0 0 50%;
     max-width: 50%;
   }
-  .main-banner-content .btn-box .optional-btn, .main-banner-content .btn-box .default-btn {
+  .dwg-banner-content .btn-box .opt-btn, .dwg-banner-content .btn-box .dwg-single-btn {
     display: inline-block;
     width: auto;
     margin: 0 10px;
@@ -1035,30 +1035,30 @@
             flex: 0 0 50%;
     max-width: 50%;
   }
-  .about-section .container-fluid {
+  .about-section .dwg-con-fluid {
     max-width: 540px;
   }
-  .about-image img {
+  .abt-img img {
     /* width: auto; */
     display: flex;
     justify-content: center;
     width: 100%;
   }
-  .about-image .img1 {
+  .abt-img .img1 {
     padding-top: 25px;
     max-width: 100%;
   }
-  .about-image .img1::before {
+  .abt-img .img1::before {
     display: block;
   }
-  .about-image .img2 {
+  .abt-img .img2 {
     position: absolute;
     top: 55px;
     border-width: 3px;
     margin-top: 0;
     max-width: 60%;
   }
-  .about-image .img3 {
+  .abt-img .img3 {
     position: absolute;
     bottom: 55px;
     border-width: 3px;
@@ -1090,7 +1090,7 @@
   .tab .tab .tab_content .tabs_item .tabs_item_content h3 {
     font-size: 21px;
   }
-  .about-content .features-list li {
+  .abt-cont .features-list li {
     -ms-flex: 0 0 50%;
     -webkit-box-flex: 0;
     flex: 0 0 50%;
@@ -1104,10 +1104,10 @@
     display: inline-block;
     width: auto;
   }
-  .copyright-area {
+  .copy-zone {
     text-align: left;
   }
-  .copyright-area ul {
+  .copy-zone ul {
     text-align: right;
     margin-top: 0;
   }
@@ -1118,16 +1118,16 @@
 
 /* Min width: 768px to Max width: 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .default-btn {
+  .dwg-single-btn {
     font-size: 15px;
   }
-  .optional-btn {
+  .opt-btn {
     font-size: 15px;
   }
-  .section-title {
+  .sec-title {
     max-width: 610px;
   }
-  .section-title h2 {
+  .sec-title h2 {
     font-size: 36px;
   }
   .pb-100 {
@@ -1139,27 +1139,27 @@
   .pt-100 {
     padding-top: 70px;
   }
-  .main-banner {
+  .dwg-banner {
     height: 100%;
     padding-top: 250px;
     padding-bottom: 320px;
   }
-  .main-banner-content {
+  .dwg-banner-content {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
   }
-  .main-banner-content h1 {
+  .dwg-banner-content h1 {
     font-size: 40px;
   }
-  .home-section .banner-footer .banner-video {
+  .dwg-home .banner-footer .banner-video {
     display: none;
   }
-  .home-section .banner-footer .banner-contact-info {
+  .dwg-home .banner-footer .banner-cont-inf {
     border-radius: 0;
   }
-  .home-section .banner-footer .banner-contact-info ul {
+  .dwg-home .banner-footer .banner-cont-inf ul {
     max-width: 100%;
   }
   .banner-section {
@@ -1167,7 +1167,7 @@
     padding-top: 250px;
     padding-bottom: 190px;
   }
-  .banner-section .main-banner-content {
+  .banner-section .dwg-banner-content {
     margin-top: 0;
   }
   .about-title {
@@ -1189,21 +1189,21 @@
     margin-top: 15px;
     margin-right: auto;
   }
-  .about-content {
+  .abt-cont {
     max-width: 100%;
     text-align: center;
     margin-top: 35px;
     padding-left: 25px;
     padding-right: 25px;
   }
-  .about-content .features-list {
+  .abt-cont .features-list {
     text-align: left;
   }
   .place-content .features-list li span {
     font-size: 20px;
     margin-bottom: 5px;
   }
-  .services-boxes-area {
+  .servBoxes-area {
     margin-bottom: -30px;
   }
   .single-box {
@@ -1297,12 +1297,12 @@
         -ms-flex-order: 2;
             order: 2;
   }
-  .about-content {
+  .abt-cont {
     max-width: 710px;
     margin-left: auto;
     margin-right: auto;
   }
-  .about-content h2 {
+  .abt-cont h2 {
     font-size: 36px;
   }
   .place-content h2 {
@@ -1339,7 +1339,7 @@
     margin-top: 40px;
     padding: 0;
   }
-  .contact-info {
+  .cont-inf {
     margin-bottom: 45px;
   }
   .event-details .event-details-header .back-all-event {
@@ -1358,20 +1358,20 @@
     padding-left: 0;
     text-align: center;
   }
-  .tuam-nav .navbar {
+  .dwg-nav .navbar {
     padding: 0;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item a {
+  .dwg-nav .navbar .navbar-nav .nav-item a {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item:nth-last-child(1) .dropdown-menu, .tuam-nav .navbar .navbar-nav .nav-item:nth-last-child(2) .dropdown-menu {
+  .dwg-nav .navbar .navbar-nav .nav-item:nth-last-child(1) .dropdown-menu, .dwg-nav .navbar .navbar-nav .nav-item:nth-last-child(2) .dropdown-menu {
     left: auto;
     right: 0;
   }
-  .tuam-nav .navbar .others-option {
+  .dwg-nav .navbar .oth-opt {
     display: none;
   }
   .single-blog-post .post-content h3 {
@@ -1388,10 +1388,10 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .copyright-area p {
+  .copy-zone p {
     font-size: 14px;
   }
-  .copyright-area ul li {
+  .copy-zone ul li {
     font-size: 15px;
   }
   .modal-video-inner {
@@ -1400,46 +1400,46 @@
   .video-content h2 {
     font-size: 36px;
   }
-  .single-services-box h3 {
+  .single-servBox h3 {
     font-size: 20px;
   }
-  .join-content h2 {
+  .joincont h2 {
     font-size: 36px;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .white-logo {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .navbar-brand .white-logo {
     display: none !important;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .logo {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .navbar-brand .logo {
     display: block !important;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item a {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .navbar-nav .nav-item a {
     color: #524552;
     margin-left: 8px;
     margin-right: 7px;
     font-size: 14px;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .oth-opt {
     margin-left: 10px;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .call-us {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .oth-opt .dwg-phone {
     display: none;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .oth-opt .dwg-single-btn {
     margin-left: 0;
     background-color: #000;
     padding: 10px 8px;
     font-size: 9px;
   }
-  .home-section .banner-footer .banner-contact-info ul li {
+  .dwg-home .banner-footer .banner-cont-inf ul li {
     padding-left: 75px;
   }
-  .home-section .banner-footer .banner-contact-info ul li i {
+  .dwg-home .banner-footer .banner-cont-inf ul li i {
     width: 45px;
     height: 45px;
     line-height: 45px;
     font-size: 18px;
   }
-  .navbar-area.navbar-style-two.is-sticky .tuam-nav .navbar {
+  .dwg-nvb-area.dwg-nvb-style2.is-sticky .dwg-nav .navbar {
     background-color: transparent;
   }
   .page-title-content h2 {
@@ -1448,7 +1448,7 @@
   .single-event-box .event-content .content h3 {
     font-size: 20px;
   }
-  .single-services-box {
+  .single-servBox {
     padding: 30px 20px;
   }
   .single-team-box .content h3 {
@@ -1461,31 +1461,31 @@
 
 /* Min width: 992px to Max width: 1199px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .tuam-nav .navbar .others-option .call-us {
+  .dwg-nav .navbar .oth-opt .dwg-phone {
     padding-left: 0;
   }
-  .tuam-nav .navbar .others-option .call-us .icon {
+  .dwg-nav .navbar .oth-opt .dwg-phone .icon {
     display: none;
   }
-  .tuam-nav .navbar .others-option .default-btn {
+  .dwg-nav .navbar .oth-opt .dwg-single-btn {
     display: none;
   }
-  .home-section .banner-footer .banner-contact-info {
+  .dwg-home .banner-footer .banner-cont-inf {
     padding: 25px;
   }
-  .home-section .banner-footer .banner-contact-info ul {
+  .dwg-home .banner-footer .banner-cont-inf ul {
     max-width: 100%;
   }
-  .home-section .banner-footer .banner-contact-info ul li {
+  .dwg-home .banner-footer .banner-cont-inf ul li {
     padding-left: 15px;
   }
-  .home-section .banner-footer .banner-contact-info ul li i {
+  .dwg-home .banner-footer .banner-cont-inf ul li i {
     display: none;
   }
-  .home-section .banner-footer .banner-contact-info ul li span {
+  .dwg-home .banner-footer .banner-cont-inf ul li span {
     margin-bottom: 5px;
   }
-  .about-image .img2, .about-image .img3 {
+  .abt-img .img2, .abt-img .img3 {
     max-width: 70%;
   }
   .place-content .features-list li {
@@ -1503,10 +1503,10 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  .main-banner-content {
+  .dwg-banner-content {
     max-width: 870px;
   }
-  .main-banner-content h1 {
+  .dwg-banner-content h1 {
     font-size: 50px;
   }
   .single-blog-post .post-content h3 {
@@ -1518,7 +1518,7 @@
   .why-choose-us-content .content h2 {
     font-size: 35px;
   }
-  .section-title h2 {
+  .sec-title h2 {
     font-size: 36px;
   }
   .single-pricing-box .pricing-features-list {
@@ -1534,37 +1534,37 @@
   .place-content .features-list li span {
     font-size: 20px;
   }
-  .about-content h2 {
+  .abt-cont h2 {
     font-size: 35px;
   }
-  .about-content .features-list li {
+  .abt-cont .features-list li {
     padding-left: 65px;
   }
-  .about-content .features-list li span {
+  .abt-cont .features-list li span {
     font-size: 15px;
   }
   .video-content h2 {
     font-size: 36px;
   }
-  single-services-box {
+  single-servBox {
     padding: 30px 20px;
   }
-  single-services-box h3 {
+  single-servBox h3 {
     font-size: 20px;
   }
-  single-services-box .read-more-btn {
+  single-servBox .readmore-btn {
     font-size: 15px;
   }
   .subscribe-content h2 {
     font-size: 30px;
   }
-  .single-services-box h3 {
+  .single-servBox h3 {
     font-size: 20px;
   }
   .event-details-area .widget-area {
     padding-left: 10px;
   }
-  .single-services-box {
+  .single-servBox {
     padding: 30px 20px;
   }
   .single-team-box .content h3 {
@@ -1582,7 +1582,7 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn {
+  .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .oth-opt .dwg-single-btn {
     margin-left: 20px;
     padding: 15px 20px;
   }
@@ -1590,7 +1590,7 @@
 
 /* Min width: 1550px */
 @media only screen and (min-width: 1550px) {
-  .main-banner {
+  .dwg-banner {
     height: 100vh;
   }
 }

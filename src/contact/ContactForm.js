@@ -125,7 +125,7 @@ const ContactForm = ({type}) => {
                         </div>
                     </div>
                     <div className="col-lg-12 col-sm-12">
-                        <button type="submit" className="default-btn">
+                        <button type="submit" className="dwg-single-btn">
                             {type==="type2" ? "건의사항 전송" : "사업문의 전송"} <span></span>
                         </button>
                     </div>

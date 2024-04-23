@@ -81,9 +81,9 @@ const Service = () => {
 
         return (
             <>
-                <section className="services-area ptb-100 bg-f8f8f8">
+                <section className="for-service ptb-100 bg-f8f8f8">
                     <div className="container">
-                        <div className="section-title">
+                        <div className="sec-title">
                             <h2>사업분야</h2>
                             <p style={{fontWeight:"normal", position:"relative"}}>{data.main.serviceSubtitle ?? "동우그룹의 다양한 사업분야를 소개합니다."}<EditButton type="main" item="serviceSubtitle" text="부제목" /></p>
                         </div>
@@ -115,7 +115,7 @@ const Service = () => {
                                 return(
                                     <SwiperSlide key={index}>
                                         
-                                        <div className="services-box" >
+                                        <div className="servBox" >
                      
                                             <img src={item.imgUrl} alt={item.title} style={{position:"relative"}} />
 

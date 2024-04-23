@@ -14,12 +14,12 @@ const Footer = () =>  {
     },[])
     return (
         <>
-            <footer className="footer-area">
+            <footer className="ft-ar">
                 <div className="container">
 
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="single-footer-widget">
+                            <div className="single-ftWid">
                                 <div className="logo">
                                     <Link href="/">
                                         <a>
@@ -57,10 +57,10 @@ const Footer = () =>  {
                         </div>
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="single-footer-widget">
+                            <div className="single-ftWid">
                                 <h3>페이지 이동</h3>
 
-                                <ul className="footer-quick-links">
+                                <ul className="ft-quickLink">
                                     <li>
                                         <Link href="/">
                                             <a>Home</a>
@@ -116,10 +116,10 @@ const Footer = () =>  {
                         </div>
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="single-footer-widget">
+                            <div className="single-ftWid">
                                 <h3>문의하기</h3>
 
-                                <ul className="footer-contact-info" style={{position:"relative"}}>
+                                <ul className="ft-contInf" style={{position:"relative"}}>
                                     {/* <li><span>주소:</span> 서울특별시 도봉구 시루봉로 234, 동우빌딩 2층</li>
                                     <li><span>사업자등록번호:</span> 210-81-24699</li>
                                     <li><span>Email:</span> <a href="mailto:dongwoodh@hanmail.net">dongwoodh@hanmail.net</a></li>
@@ -138,7 +138,7 @@ const Footer = () =>  {
                         </div>
                     </div>
 
-                    <div className="copyright-area">
+                    <div className="copy-zone">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-sm-6 col-md-6">
                                 <p><i className="far fa-copyright"></i> 2024 동우그룹</p>

@@ -35,12 +35,12 @@ const Card = () => {
 
 
   return (
-    <section className="services-area ptb-100 bg-f8f8f8">
-      <div className="section-title">
+    <section className="for-service ptb-100 bg-f8f8f8">
+      <div className="sec-title">
         <h2>계열사</h2>
         <p style={{fontWeight:"normal", position:"relative"}}>{data?.main?.subSidiarySubtitle ?? "동우그룹의 계열사를 소개합니다."}<EditButton type="main" item="subSidiarySubtitle" text="부제목" />   </p>
       </div>
-    <Grid container justifyContent="center" width="100%" style={{padding: "20px 0 0 0"}} >
+    <Grid container justifyContent="center" width="100%" style={{padding: "40px 0 0 0"}} >
       <Grid item xs={12} sm={6} md={4} display="flex" justifyContent={monitorWidth>1190 ? "end" : "center"} style={{padding:"20px 0"}}>
         <div className={styles.container1}>
           <div className={styles.card}>

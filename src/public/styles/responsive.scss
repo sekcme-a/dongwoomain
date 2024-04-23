@@ -33,7 +33,7 @@ $value_seven: 1550px;
         padding-top: 60px;
     }
 
-    .section-title {
+    .sec-title {
         text-align: center;
         max-width: 100%;
         margin: {
@@ -41,7 +41,7 @@ $value_seven: 1550px;
             right: 0;
             bottom: 35px;
         };
-        .sub-title {
+        .subtitle {
             font-size: 16px;
         }
         h2 {
@@ -56,7 +56,7 @@ $value_seven: 1550px;
             };
         }
     }
-    .default-btn {
+    .dwg-single-btn {
         font-size: 14px;
         padding: {
             left: 28px;
@@ -65,7 +65,7 @@ $value_seven: 1550px;
             bottom: 14px;
         };
     }
-    .optional-btn {
+    .opt-btn {
         font-size: 14px;
         top: -2px;
         padding: {
@@ -81,21 +81,21 @@ $value_seven: 1550px;
             display: none;
         }
     }
-    .main-banner {
+    .dwg-banner {
         height: 100%;
         padding: {
             top: 170px;
             bottom: 170px;
         };
     }
-    .main-banner-content {
+    .dwg-banner-content {
         max-width: 100%;
         margin: {
             left: 0;
             right: 0;
             top: 0;
         };
-        .sub-title {
+        .subtitle {
             letter-spacing: 1px;
             font-size: 15px;
             text-transform: capitalize;
@@ -106,13 +106,13 @@ $value_seven: 1550px;
         .btn-box {
             margin-top: 23px;
 
-            .default-btn, .optional-btn {
+            .dwg-single-btn, .opt-btn {
                 display: block;
                 width: 100%;
                 font-size: 13px;
                 margin: 0;
             }
-            .optional-btn {
+            .opt-btn {
                 margin-top: 12px;
             }
         }
@@ -133,7 +133,7 @@ $value_seven: 1550px;
                     font-size: 15px;
                 }
             }
-            .default-btn {
+            .dwg-single-btn {
                 height: 53px;
                 line-height: 53px;
                 position: relative;
@@ -155,8 +155,8 @@ $value_seven: 1550px;
     .banner-footer {
         display: none;
     }
-    .home-section {
-        .main-banner {
+    .dwg-home {
+        .dwg-banner {
             padding-bottom: 155px;
         }
     }
@@ -166,12 +166,12 @@ $value_seven: 1550px;
             top: 180px;
             bottom: 120px;
         };
-        .main-banner-content {
+        .dwg-banner-content {
             margin-top: 0;
         }
     }
 
-    .services-boxes-area {
+    .servBoxes-area {
         margin: {
             top: -55px;
             bottom: -30px;
@@ -198,7 +198,7 @@ $value_seven: 1550px;
             }
         }
     }
-    .services-box {
+    .servBox {
         .services-content {
             padding: 25px 20px;
 
@@ -209,14 +209,14 @@ $value_seven: 1550px;
     }
 
     .about-section {
-        .container-fluid {
+        .dwg-con-fluid {
             padding: {
                 left: 15px;
                 right: 15px;
             }
         }
     }
-    .about-image {
+    .abt-img {
         img {
             width: 100%;
         }
@@ -242,13 +242,13 @@ $value_seven: 1550px;
             margin-top: 15px;
         }
     }
-    .about-content {
+    .abt-cont {
         max-width: 100%;
         padding-left: 0;
         margin-top: 30px;
         text-align: center;
 
-        .sub-title {
+        .subtitle {
             margin-bottom: 5px;
             font-size: 15px;
         }
@@ -275,7 +275,7 @@ $value_seven: 1550px;
                 }
             }
         }
-        .read-more-btn {
+        .readmore-btn {
             font-size: 15px;
         }
     }
@@ -296,7 +296,7 @@ $value_seven: 1550px;
         padding-left: 0;
         margin-top: 12px;
 
-        .read-more-btn {
+        .readmore-btn {
             margin-top: 15px;
             font-size: 15px;
         }
@@ -350,7 +350,7 @@ $value_seven: 1550px;
         max-width: 100%;
     }
 
-    .single-services-box {
+    .single-servBox {
         padding: 20px 15px;
         .icon {
             font-size: 40px;
@@ -400,7 +400,7 @@ $value_seven: 1550px;
                 bottom: 60px;
                 right: 15px;
             };
-            .sub-title {
+            .subtitle {
                 font-size: 16px;
             }
             h2 {
@@ -467,7 +467,7 @@ $value_seven: 1550px;
         }
     }
 
-    .join-content {
+    .joincont {
         max-width: 100%;
         margin: {
             left: 0;
@@ -552,7 +552,7 @@ $value_seven: 1550px;
             left: 15px;
             right: 15px;
         };
-        .sub-title {
+        .subtitle {
             font-size: 15px;
         }
         h2 {
@@ -610,7 +610,7 @@ $value_seven: 1550px;
                 font-size: 20px;
                 line-height: 1.4;
             }
-            .default-btn {
+            .dwg-single-btn {
                 padding: {
                     top: 13px;
                     bottom: 13px;
@@ -1018,16 +1018,16 @@ $value_seven: 1550px;
         }
     }
 
-    .contact-area {
-        .section-title {
+    .cont-zone {
+        .sec-title {
             margin-bottom: 30px;
         }
     }
-    .contact-info {
+    .cont-inf {
         padding-right: 0;
         margin-bottom: 45px;
 
-        .contact-list {
+        .contList {
             padding-right: 0;
 
             li {
@@ -1091,17 +1091,17 @@ $value_seven: 1550px;
         }
     }
 
-    .footer-area {
+    .ft-ar {
         padding-top: 60px;
     }
-    .single-footer-widget {
+    .single-ftWid {
         p {
             font-size: 14px;
         }
         h3 {
             font-size: 20px;
         }
-        .footer-quick-links {
+        .ft-quickLink {
             li {
                 padding-top: 10px;
 
@@ -1110,13 +1110,13 @@ $value_seven: 1550px;
                 }
             }
         }
-        .footer-contact-info {
+        .ft-contInf {
             li {
                 font-size: 14px;
             }
         }
     }
-    .copyright-area {
+    .copy-zone {
         margin-top: 30px;
         text-align: center;
         padding: {
@@ -1136,7 +1136,7 @@ $value_seven: 1550px;
         }
     }
 
-    .tuam-nav {
+    .dwg-nav {
         .navbar {
             padding-right: 0;
             padding-left: 0;
@@ -1207,7 +1207,7 @@ $value_seven: 1550px;
                     }
                 }
             }
-            .others-option {
+            .oth-opt {
                 margin: 0;
                 border-top: 1px solid #eee;
                 padding-top: 15px;
@@ -1227,8 +1227,8 @@ $value_seven: 1550px;
         }
     }
 
-    .navbar-area.navbar-style-two {
-        .tuam-nav {
+    .dwg-nvb-area.dwg-nvb-style2 {
+        .dwg-nav {
             .navbar {
                 .navbar-brand {
                     .white-logo {
@@ -1245,11 +1245,11 @@ $value_seven: 1550px;
                         }
                     }
                 }
-                .others-option {
-                    .call-us {
+                .oth-opt {
+                    .dwg-phone {
                         color: #333;
                     }
-                    .default-btn {
+                    .dwg-single-btn {
                         margin-left: 15px;
                         background-color: #000;
                         padding: 10px 15px;
@@ -1258,15 +1258,15 @@ $value_seven: 1550px;
             }
         }
     }
-    .navbar-area.navbar-style-two.is-sticky {
-        .tuam-nav {
+    .dwg-nvb-area.dwg-nvb-style2.is-sticky {
+        .dwg-nav {
             .navbar {
                 background-color: transparent;
             }
         }
     }
-    .single-footer-widget {
-        .footer-quick-links {
+    .single-ftWid {
+        .ft-quickLink {
             margin-right: 0;
         }
     }
@@ -1286,9 +1286,9 @@ $value_seven: 1550px;
         }
     }
 
-    .main-banner-content {
+    .dwg-banner-content {
         .btn-box {
-            .optional-btn, .default-btn {
+            .opt-btn, .dwg-single-btn {
                 display: inline-block;
                 width: auto;
                 margin: 0 10px;
@@ -1303,11 +1303,11 @@ $value_seven: 1550px;
     }
 
     .about-section {
-        .container-fluid {
+        .dwg-con-fluid {
             max-width: 540px;
         }
     }
-    .about-image {
+    .abt-img {
         img {
             width: auto;
         }
@@ -1390,7 +1390,7 @@ $value_seven: 1550px;
         }
     }
 
-    .about-content {
+    .abt-cont {
         .features-list {
             li {
                 -ms-flex: 0 0 50%;
@@ -1413,7 +1413,7 @@ $value_seven: 1550px;
             }
         }
     }
-    .copyright-area {
+    .copy-zone {
         text-align: left;
         ul {
             text-align: right;
@@ -1431,13 +1431,13 @@ $value_seven: 1550px;
 
 /* Min width: 768px to Max width: 991px */
 @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
-    .default-btn {
+    .dwg-single-btn {
         font-size: 15px;
     }
-    .optional-btn {
+    .opt-btn {
         font-size: 15px;
     }
-    .section-title {
+    .sec-title {
         max-width: 610px;
 
         h2 {
@@ -1455,14 +1455,14 @@ $value_seven: 1550px;
         padding-top: 70px;
     }
 
-    .main-banner {
+    .dwg-banner {
         height: 100%;
         padding: {
             top: 250px;
             bottom: 320px;
         };
     }
-    .main-banner-content {
+    .dwg-banner-content {
         max-width: 600px;
         margin-left: auto;
         margin-right: auto;
@@ -1471,12 +1471,12 @@ $value_seven: 1550px;
             font-size: 40px;
         }
     }
-    .home-section {
+    .dwg-home {
         .banner-footer {
             .banner-video {
                 display: none;
             }
-            .banner-contact-info {
+            .banner-cont-inf {
                 border-radius: 0;
 
                 ul {
@@ -1491,7 +1491,7 @@ $value_seven: 1550px;
             top: 250px;
             bottom: 190px;
         };
-        .main-banner-content {
+        .dwg-banner-content {
             margin-top: 0;
         }
     }
@@ -1519,7 +1519,7 @@ $value_seven: 1550px;
             right: auto;
         };
     }
-    .about-content {
+    .abt-cont {
         max-width: 100%;
         text-align: center;
         margin-top: 35px;
@@ -1543,7 +1543,7 @@ $value_seven: 1550px;
         }
     }
 
-    .services-boxes-area {
+    .servBoxes-area {
         margin-bottom: -30px;
     }
     .single-box {
@@ -1655,7 +1655,7 @@ $value_seven: 1550px;
         }
     }
 
-    .about-content {
+    .abt-cont {
         max-width: 710px;
         margin: {
             left: auto;
@@ -1705,7 +1705,7 @@ $value_seven: 1550px;
         padding: 0;
     }
 
-    .contact-info {
+    .cont-inf {
         margin-bottom: 45px;
     }
 
@@ -1733,7 +1733,7 @@ $value_seven: 1550px;
         padding-left: 0;
         text-align: center;
     }
-    .tuam-nav {
+    .dwg-nav {
         .navbar {
             padding: 0;
             .navbar-nav {
@@ -1752,7 +1752,7 @@ $value_seven: 1550px;
                     }
                 }
             }
-            .others-option {
+            .oth-opt {
                 display: none;
             }
         }
@@ -1778,7 +1778,7 @@ $value_seven: 1550px;
         padding-bottom: 70px;
     }
 
-    .copyright-area {
+    .copy-zone {
         p {
             font-size: 14px;
         }
@@ -1796,18 +1796,18 @@ $value_seven: 1550px;
             font-size: 36px;
         }
     }
-    .single-services-box {
+    .single-servBox {
         h3 {
             font-size: 20px;
         }
     }
-    .join-content {
+    .joincont {
         h2 {
             font-size: 36px;
         }
     }
-    .navbar-area.navbar-style-two {
-        .tuam-nav {
+    .dwg-nvb-area.dwg-nvb-style2 {
+        .dwg-nav {
             .navbar {
                 .navbar-brand {
                     .white-logo {
@@ -1827,12 +1827,12 @@ $value_seven: 1550px;
                         }
                     }
                 }
-                .others-option {
+                .oth-opt {
                     margin-left: 10px;
-                    .call-us {
+                    .dwg-phone {
                         display: none;
                     }
-                    .default-btn {
+                    .dwg-single-btn {
                         margin-left: 0;
                         background-color: #000;
                         padding: 10px 8px;
@@ -1842,9 +1842,9 @@ $value_seven: 1550px;
             }
         }
     }
-    .home-section {
+    .dwg-home {
         .banner-footer {
-            .banner-contact-info {
+            .banner-cont-inf {
                 ul {
                     li {
                         padding-left: 75px;
@@ -1860,8 +1860,8 @@ $value_seven: 1550px;
         }
     }
 
-    .navbar-area.navbar-style-two.is-sticky {
-        .tuam-nav {
+    .dwg-nvb-area.dwg-nvb-style2.is-sticky {
+        .dwg-nav {
             .navbar {
                 background-color: transparent;
             }
@@ -1882,7 +1882,7 @@ $value_seven: 1550px;
             }
         }
     }
-    .single-services-box {
+    .single-servBox {
         padding: 30px 20px;
     }
     .single-team-box {
@@ -1899,26 +1899,26 @@ $value_seven: 1550px;
 
 /* Min width: 992px to Max width: 1199px */
 @media only #{$media} and ($feature_min : $value_five) and ($feature_max : $value_six) {
-    .tuam-nav {
+    .dwg-nav {
         .navbar {
-            .others-option {
-                .call-us {
+            .oth-opt {
+                .dwg-phone {
                     padding-left: 0;
 
                     .icon {
                         display: none;
                     }
                 }
-                .default-btn {
+                .dwg-single-btn {
                     display: none;
                 }
             }
         }
     }
 
-    .home-section {
+    .dwg-home {
         .banner-footer {
-            .banner-contact-info {
+            .banner-cont-inf {
                 padding: 25px;
 
                 ul {
@@ -1939,7 +1939,7 @@ $value_seven: 1550px;
         }
     }
 
-    .about-image {
+    .abt-img {
         .img2, .img3 {
             max-width: 70%;
         }
@@ -1972,7 +1972,7 @@ $value_seven: 1550px;
         };
     }
 
-    .main-banner-content {
+    .dwg-banner-content {
         max-width: 870px;
         h1 {
             font-size: 50px;
@@ -1997,7 +1997,7 @@ $value_seven: 1550px;
             }
         }
     }
-    .section-title {
+    .sec-title {
         h2 {
             font-size: 36px;
         }
@@ -2027,13 +2027,13 @@ $value_seven: 1550px;
             }
         }
     }
-    .about-content {
+    .abt-cont {
         h2 {
             font-size: 35px;
         }
     }
 
-    .about-content {
+    .abt-cont {
         .features-list {
             li {
                 padding-left: 65px;
@@ -2049,12 +2049,12 @@ $value_seven: 1550px;
         }
     }
 
-    single-services-box {
+    single-servBox {
         padding: 30px 20px;
         h3 {
             font-size: 20px;
         }
-        .read-more-btn {
+        .readmore-btn {
             font-size: 15px;
         }
     }
@@ -2063,7 +2063,7 @@ $value_seven: 1550px;
             font-size: 30px;
         }
     }
-    .single-services-box {
+    .single-servBox {
         h3 {
             font-size: 20px;
         }
@@ -2073,7 +2073,7 @@ $value_seven: 1550px;
             padding-left: 10px;
         }
     }
-    .single-services-box {
+    .single-servBox {
         padding: 30px 20px;
     }
     .single-team-box {
@@ -2103,7 +2103,7 @@ $value_seven: 1550px;
 }
 
 @media only screen and (min-width : 1200px) and (max-width : 1399px) {
-    .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn {
+    .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .oth-opt .dwg-single-btn {
         margin-left: 20px;
         padding: 15px 20px;
     }
@@ -2111,7 +2111,7 @@ $value_seven: 1550px;
 
 /* Min width: 1550px */
 @media only #{$media} and ($feature_min : $value_seven) {
-    .main-banner {
+    .dwg-banner {
         height: 100vh;
     }
 }

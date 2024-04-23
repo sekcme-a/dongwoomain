@@ -37,8 +37,8 @@
 
 //         return (
 //             <>
-//                 <div id="navbar" className="navbar-area">
-//                     <div className="tuam-nav">
+//                 <div id="navbar" className="dwg-nvb-area">
+//                     <div className="dwg-nav">
 //                         <div className="container">
 //                             <nav className="navbar navbar-expand-md navbar-light">
 //                                 <Link href="/">
@@ -120,8 +120,8 @@
 //                                             }
 //                                         })}
 //                                     </ul>
-//                                     <div className="others-option">
-//                                         <div className="call-us">
+//                                     <div className="oth-opt">
+//                                         <div className="dwg-phone">
 //                                             <div className="icon">
 //                                                 <i className="flaticon-call"></i>
 //                                             </div>
@@ -181,8 +181,8 @@ const Navbar = () => {
 
     return (
         <>
-            <div id="navbar" className="navbar-area">
-                <div className="tuam-nav">
+            <div id="navbar" className="dwg-nvb-area">
+                <div className="dwg-nav">
                     <div className="container">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
@@ -264,8 +264,8 @@ const Navbar = () => {
                                         }
                                     })}
                                 </ul>
-                                <div className="others-option">
-                                    <div className="call-us">
+                                <div className="oth-opt">
+                                    <div className="dwg-phone">
                                         <div className="icon">
                                             <i className="flaticon-call"></i>
                                         </div>

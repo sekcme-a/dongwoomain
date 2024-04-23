@@ -38,9 +38,9 @@ const NavbarTwo = () => {
 
     return (
         <>
-            <div id="navbar" className="navbar-area navbar-style-two">
-                <div className="tuam-nav">
-                    <div className="container-fluid">
+            <div id="navbar" className="dwg-nvb-area dwg-nvb-style2">
+                <div className="dwg-nav">
+                    <div className="dwg-con-fluid">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
                                 <a className="navbar-brand">
@@ -124,8 +124,8 @@ const NavbarTwo = () => {
                                     })}
                                 </ul>
 
-                                <div className="others-option">
-                                    <div className="call-us">
+                                <div className="oth-opt">
+                                    <div className="dwg-phone">
                                         <div className="icon">
                                             <i className="flaticon-call"></i>
                                         </div>
@@ -137,7 +137,7 @@ const NavbarTwo = () => {
 
                                     <EditButton type="main" item="youtubeUrl" text="전체 URL (http나 https을 포함해 적어주세요." />
                                     <Link href={data.main.youtubeUrl ?? "/"}>
-                                        <a className="default-btn" target='_blank' >
+                                        <a className="dwg-single-btn" target='_blank' >
                                         
                                             <>
                                                 <YouTubeIcon sx={{ mr: "8px" }}style={{position:"relative"}} />

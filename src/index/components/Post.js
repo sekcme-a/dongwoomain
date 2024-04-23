@@ -100,9 +100,9 @@ const Post = () => {
 
   return(
     <>
-      <section className="services-area ptb-100 bg-f8f8f8">
+      <section className="for-service ptb-100 bg-f8f8f8">
         <div className={styles.main_container} >
-          <div className="section-title">
+          <div className="sec-title">
               <h2>동행소식</h2>
               <p style={{fontWeight:"normal", position:"relative"}}>
                 {data.main.postSubtitle ?? "동우그룹의 동행소식입니다."}

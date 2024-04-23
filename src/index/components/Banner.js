@@ -21,7 +21,7 @@ const Banner = () => {
                 ] }
             />
 
-			<div className="home-section">
+			<div className="dwg-home">
                 <Swiper 
                     navigation={true} 
                     modules={[Navigation]} 
@@ -30,7 +30,7 @@ const Banner = () => {
                     loop={true}
                 >
                     <SwiperSlide>
-                        <div className="main-banner" style={{position:"relative"}}
+                        <div className="dwg-banner" style={{position:"relative"}}
                         // style={{backgroundImage:`url(${data.main.bannerBg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FbannerBg?alt=media&token=38faae2d-6bc7-4331-9bc9-d743f882fb95"})`}}
                         >
                             <Image
@@ -45,19 +45,19 @@ const Banner = () => {
                             <div className="d-table">
                                 <div className="d-table-cell">
                                     <div className="container">
-                                        <div className="main-banner-content" style={{zIndex: 100}}>
-                                            <span className="sub-title" style={{position:"relative", zIndex:"100"}}>{data.main.subtitle ?? "꺠끗하고 투명한 관리"}<EditButton type="main" item="subtitle" text="부제목"/></span>
+                                        <div className="dwg-banner-content" style={{zIndex: 100}}>
+                                            <span className="subtitle" style={{position:"relative", zIndex:"100"}}>{data.main.subtitle ?? "꺠끗하고 투명한 관리"}<EditButton type="main" item="subtitle" text="부제목"/></span>
                                             <h1 style={{position:"relative"}}>{data.main.title ?? "함께 동행하는, 동우그룹"}<EditButton type="main" item="title" text="제목"/></h1>
 
                                             <div className="btn-box">
                                                 <Link href="/info/greet" legacyBehavior>
-                                                    <a className="default-btn">
+                                                    <a className="dwg-single-btn">
                                                         동우그룹 소개<span></span>
                                                     </a>
                                                 </Link>
 
                                                 <div
-                                                    className="optional-btn"
+                                                    className="opt-btn"
                                                     onClick={ () => setToggler(!toggler) }
                                                     // style={{marginLeft:"20px"}}
                                                 > 
@@ -74,7 +74,7 @@ const Banner = () => {
                 </Swiper>
 
                 <div className="banner-footer">
-                    <div className="container-fluid p-0">
+                    <div className="dwg-con-fluid p-0">
                         <div className="row m-0 align-items-center">
                             <div className="col-lg-5 col-md-12 p-0">
                                 <div className="banner-video">
@@ -91,7 +91,7 @@ const Banner = () => {
                             </div>
 
                             <div className="col-lg-7 col-md-12 p-0">
-                                <div className="banner-contact-info">
+                                <div className="banner-cont-inf">
                                     <ul>
                                         <li>
                                             <i className="flaticon-location"></i>

@@ -11,11 +11,11 @@ const AboutUs = () => {
     return (
         <>
             <section className="about-section ptb-100">
-                <div className="container-fluid">
+                <div className="dwg-con-fluid">
                     <div className="row align-items-center">
 
                         <div className="col-lg-6 col-md-12">
-                            <div className="about-image" >
+                            <div className="abt-img" >
                                 <div className="img1" >
                                     <Image
                                         src={data.main.aboutUsImg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FaboutUsImg?alt=media&token=7566a5f9-59d2-4e07-a892-67919953adcf"}
@@ -33,8 +33,8 @@ const AboutUs = () => {
                         </div>
 
                         <div className="col-lg-6 col-md-12">
-                            <div className="about-content">
-                                <span className="sub-title">About Us</span><EditButton type="main" item="aboutUsTitle" text="제목" />   
+                            <div className="abt-cont">
+                                <span className="subtitle">About Us</span><EditButton type="main" item="aboutUsTitle" text="제목" />   
                                 <h2 style={{position:"relative"}}>{data.main.aboutUsTitle ?? "동우그룹은 공동주택관리의 선도주자로 동행합니다."}<EditButton type="main" item="aboutUsTitle" text="제목" /></h2> 
                                 <p className={styles.border} />
                                 <h3 className={styles.subtitle} style={{position:"relative"}}>{data.main.aboutUsSubtitle ?? "투명하고 차별화된 관리"}<EditButton type="main" item="aboutUsSubtitle" text="부제목" /></h3>
@@ -44,8 +44,8 @@ const AboutUs = () => {
                                 </p>
 
                                 <Link href="/info/business">
-                                    {/* <a className="read-more-btn"> */}
-                                    <div className="read-more-btn" style={{cursor:"pointer"}}>
+                                    {/* <a className="readmore-btn"> */}
+                                    <div className="readmore-btn" style={{cursor:"pointer"}}>
                                         자세히 보기 <i className="flaticon-next"></i>
                                     </div>
                                     {/* </a> */}

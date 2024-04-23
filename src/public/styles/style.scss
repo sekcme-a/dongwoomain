@@ -135,8 +135,8 @@ button {
         background-color: #f8f8f8;
     }
 }
-/*section-title*/
-.section-title {
+/*sec-title*/
+.sec-title {
     text-align: center;
     max-width: 750px;
     margin: {
@@ -145,7 +145,7 @@ button {
         bottom: 50px;
         top: -6px;
     };
-    .sub-title {
+    .subtitle {
         color: $main-color;
         font-size: 18px;
         display: block;
@@ -169,8 +169,8 @@ button {
         };
     }
 }
-/*default-btn*/
-.default-btn {
+/*dwg-single-btn*/
+.dwg-single-btn {
     border: none;
     position: relative;
     display: inline-block;
@@ -213,8 +213,8 @@ button {
         }
     }
 }
-/*optional-btn*/
-.optional-btn {
+/*opt-btn*/
+.opt-btn {
     border: 1px solid $main-color;
     position: relative;
     display: inline-block;
@@ -371,7 +371,7 @@ Preloader Area CSS
 /*================================================
 Navbar Area CSS
 =================================================*/
-.tuam-nav {
+.dwg-nav {
     background-color: transparent;
     
     .navbar {
@@ -684,10 +684,10 @@ Navbar Area CSS
                 }
             }
         }
-        .others-option {
+        .oth-opt {
             margin-left: 25px;
 
-            .call-us {
+            .dwg-phone {
                 padding-left: 50px;
                 position: relative;
                 text-transform: uppercase;
@@ -725,7 +725,7 @@ Navbar Area CSS
         }
     }
 }
-.navbar-area {
+.dwg-nvb-area {
     position: absolute;
     left: 0;
     top: 50px;
@@ -745,7 +745,7 @@ Navbar Area CSS
         background-color: $white-color !important;
         animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 
-        .tuam-nav {
+        .dwg-nav {
             .navbar {
                 box-shadow: unset;
                 padding: {
@@ -755,13 +755,13 @@ Navbar Area CSS
             }
         }
     }
-    &.navbar-style-two {
+    &.dwg-nvb-style2 {
         top: 0;
         padding: {
             left: 40px;
             right: 40px;
         };
-        .tuam-nav {
+        .dwg-nav {
             background-color: transparent;
             
             .navbar {
@@ -909,11 +909,11 @@ Navbar Area CSS
                         }
                     }
                 }
-                .others-option {
+                .oth-opt {
                     display: flex;
                     align-items: center;
 
-                    .call-us {
+                    .dwg-phone {
                         display: inline-block;
                         color: $white-color;
                         font: {
@@ -921,7 +921,7 @@ Navbar Area CSS
                             weight: 300;
                         };
                     }
-                    .default-btn {
+                    .dwg-single-btn {
                         margin-left: 25px;
                         background-color: transparent;
                         border: 1px solid $white-color;
@@ -944,7 +944,7 @@ Navbar Area CSS
             box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.2);
             background-color: $black-color !important;
     
-            .tuam-nav {
+            .dwg-nav {
                 .navbar {
                     background-color: $black-color;
                 }
@@ -1004,7 +1004,7 @@ Navbar Area CSS
 
 // Mobile and iPad Navbar
 @media only screen and (max-width: 991px) {
-    .navbar-area {
+    .dwg-nvb-area {
         background-color: $white-color;
         position: absolute;
         top: 0;
@@ -1012,7 +1012,7 @@ Navbar Area CSS
             top: 15px;
             bottom: 15px;
         }
-        &.navbar-style-two {
+        &.dwg-nvb-style2 {
             padding: {
                 left: 0;
                 right: 0;
@@ -1028,7 +1028,7 @@ Navbar Area CSS
 /*================================================
 Main Banner Area CSS
 =================================================*/
-.main-banner {
+.dwg-banner {
     height: 925px;
     position: relative;
     z-index: 2;
@@ -1051,27 +1051,27 @@ Main Banner Area CSS
 }
 .item-bg1 {
     background: {
-        image: url(/images/main-banner1.jpg);
+        image: url(/images/dwg-banner1.jpg);
     };
 }
 .item-bg2 {
     background: {
-        image: url(/images/main-banner2.jpg);
+        image: url(/images/dwg-banner2.jpg);
     };
 }
 .item-bg3 {
     background: {
-        image: url(/images/main-banner3.jpg);
+        image: url(/images/dwg-banner3.jpg);
     };
 }
 .item-bg4 {
     background: {
-        image: url(/images/main-banner4.jpg);
+        image: url(/images/dwg-banner4.jpg);
     };
 }
 .item-bg5 {
     background: {
-        image: url(/images/main-banner5.jpg);
+        image: url(/images/dwg-banner5.jpg);
     };
 }
 .banner-section {
@@ -1094,12 +1094,12 @@ Main Banner Area CSS
         background-color: #1a0602;
         opacity: .60;
     }
-    .main-banner-content {
+    .dwg-banner-content {
         margin-top: 30px;
         max-width: 940px;
     }
 }
-.main-banner-content {
+.dwg-banner-content {
     text-align: center;
     max-width: 900px;
     position: relative;
@@ -1109,7 +1109,7 @@ Main Banner Area CSS
         right: auto;
         top: -30px;
     };
-    .sub-title {
+    .subtitle {
         text-transform: uppercase;
         display: block;
         color: $white-color;
@@ -1130,7 +1130,7 @@ Main Banner Area CSS
     .btn-box {
         margin-top: 40px;
 
-        .default-btn {
+        .dwg-single-btn {
             span {
                 background-color: $white-color;
             }
@@ -1138,13 +1138,13 @@ Main Banner Area CSS
                 color: $main-color;
             }
         }
-        .default-btn, .optional-btn {
+        .dwg-single-btn, .opt-btn {
             margin: {
                 left: 10px;
                 right: 10px;
             };
         }
-        .optional-btn {
+        .opt-btn {
             color: $white-color !important;
             border-color: $white-color;
 
@@ -1201,7 +1201,7 @@ Main Banner Area CSS
                 left: 25px;
             }
         }
-        .default-btn {
+        .dwg-single-btn {
             height: 55px;
             line-height: 55px;
             position: absolute;
@@ -1250,7 +1250,7 @@ Main Banner Area CSS
         }
     }
 }
-.home-section {
+.dwg-home {
     position: relative;
     z-index: 1;
 
@@ -1308,7 +1308,7 @@ Main Banner Area CSS
                 margin-left: 25px;
             }
         }
-        .banner-contact-info {
+        .banner-cont-inf {
             padding: 35px;
             border-radius: 5px 0 0 0;
             background-color: $main-color;
@@ -1407,7 +1407,7 @@ About Area CSS
     p {
         margin-bottom: 0;
     }
-    .read-more-btn {
+    .readmore-btn {
         margin-top: 18px;
         display: inline-block;
         color: $main-color;
@@ -1428,7 +1428,7 @@ About Area CSS
     }
 }
 .about-section {
-    .container-fluid {
+    .dwg-con-fluid {
         padding: 0;
 
         .row {
@@ -1440,7 +1440,7 @@ About Area CSS
         }
     }
 }
-.about-image {
+.abt-img {
     position: relative;
     text-align: right;
 
@@ -1480,11 +1480,11 @@ About Area CSS
         border-left: none;
     }
 }
-.about-content {
+.abt-cont {
     max-width: 555px;
     padding-left: 50px;
 
-    .sub-title {
+    .subtitle {
         color: $main-color;
         font-size: 18px;
         display: block;
@@ -1503,7 +1503,7 @@ About Area CSS
             bottom: 0;
         };
     }
-    .read-more-btn {
+    .readmore-btn {
         margin-top: 20px;
         display: inline-block;
         color: $main-color;
@@ -1700,7 +1700,7 @@ Video Area CSS
 /*================================================
 Services Area CSS
 =================================================*/
-.single-services-box {
+.single-servBox {
     position: relative;
     margin-bottom: 30px;
     text-align: center;
@@ -1765,7 +1765,7 @@ Services Area CSS
             bottom: 0;
         };
     }
-    .read-more-btn {
+    .readmore-btn {
         display: inline-block;
         margin-top: 15px;
         color: $main-color;
@@ -1824,7 +1824,7 @@ Services Area CSS
         }
     }
 }
-.services-box {
+.servBox {
     margin-bottom: 30px;
     text-align: center;
     border-radius: 5px;
@@ -1917,7 +1917,7 @@ Services Area CSS
         }
     }
 }
-.services-boxes-area {
+.servBoxes-area {
     margin-top: -180px;
     position: relative;
     z-index: 3;
@@ -2019,7 +2019,7 @@ Services Area CSS
                 bottom: 0;
             };
         }
-        .read-more-btn {
+        .readmore-btn {
             display: inline-block;
             margin-top: 15px;
             color: $white-color;
@@ -2264,7 +2264,7 @@ Gallery Area CSS
     }
 }
 .gallery-area {
-    .container-fluid {
+    .dwg-con-fluid {
         padding: 0;
         .row {
             margin: 0;
@@ -2336,7 +2336,7 @@ Gallery Area CSS
 Why Choose Us Area CSS
 =================================================*/
 .why-choose-us-area {
-    .container-fluid {
+    .dwg-con-fluid {
         padding: 0;
 
         .row {
@@ -2374,7 +2374,7 @@ Why Choose Us Area CSS
             top: 100px;
             bottom: 100px;
         }
-        .sub-title {
+        .subtitle {
             color: $main-color;
             font-size: 18px;
             display: block;
@@ -2611,7 +2611,7 @@ Pricing Area CSS
     .book-now-btn {
         margin-top: 20px;
 
-        .default-btn {
+        .dwg-single-btn {
             background-color: transparent;
             color: $main-color;
             border: 1px solid $main-color;
@@ -2677,7 +2677,7 @@ Pricing Area CSS
 /*================================================
 Join Area CSS
 =================================================*/
-.join-area {
+.joinar {
     position: relative;
     z-index: 1;
     background: {
@@ -2699,7 +2699,7 @@ Join Area CSS
         opacity: 0.75;
     }
 }
-.join-content {
+.joincont {
     text-align: center;
     max-width: 650px;
     margin: {
@@ -2720,7 +2720,7 @@ Join Area CSS
             bottom: 0;
         };
     }
-    .default-btn {
+    .dwg-single-btn {
         margin-top: 25px;
 
         span {
@@ -2902,7 +2902,7 @@ Our Mission Area CSS
         color: $white-color;
         margin-bottom: 0;
     }
-    .default-btn {
+    .dwg-single-btn {
         margin-top: 20px;
 
         span {
@@ -3139,7 +3139,7 @@ Event Area CSS
                     }
                 }
             }
-            .default-btn {
+            .dwg-single-btn {
                 margin-top: 25px;
             }
         }
@@ -3221,7 +3221,7 @@ Event Details Area CSS
 Place Area CSS
 =================================================*/
 .place-area {
-    .container-fluid {
+    .dwg-con-fluid {
         padding: 0;
 
         .row {
@@ -3242,7 +3242,7 @@ Place Area CSS
         left: 30px;
         right: 30px;
     };
-    .sub-title {
+    .subtitle {
         color: $main-color;
         font-size: 18px;
         display: block;
@@ -3494,7 +3494,7 @@ Floor Plans CSS
                         }
                     }
                 }
-                .default-btn {
+                .dwg-single-btn {
                     margin-top: 30px;
                 }
             }
@@ -3554,7 +3554,7 @@ Blog Area CSS
         p {
             margin-bottom: 0;
         }
-        .default-btn {
+        .dwg-single-btn {
             margin-top: 20px;
         }
     }
@@ -4788,11 +4788,11 @@ Subscribe Area CSS
 /*================================================
 Contact Area CSS
 =================================================*/
-.contact-area {
+.cont-zone {
     position: relative;
     z-index: 1;
 
-    .section-title {
+    .sec-title {
         margin-bottom: 40px;
         text-align: left;
         margin: {
@@ -4833,7 +4833,7 @@ Contact Area CSS
             height: auto;
             padding-top: 15px;
         }
-        .default-btn {
+        .dwg-single-btn {
             margin-top: 10px;
             border: none;
             box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.5) !important;
@@ -4865,10 +4865,10 @@ Contact Area CSS
         }
     }
 }
-.contact-info {
+.cont-inf {
     padding-right: 25px;
     
-    .contact-list {
+    .contList {
         margin-bottom: 0;
         list-style-type: none;
         padding: {
@@ -4990,11 +4990,11 @@ Contact Area CSS
 /*================================================
 Footer Area CSS
 =================================================*/
-.footer-area {
+.ft-ar {
     background-color: #2e282e;
     padding-top: 70px;
 }
-.single-footer-widget {
+.single-ftWid {
     margin-bottom: 30px;
 
     h3 {
@@ -5072,7 +5072,7 @@ Footer Area CSS
             }
         }
     }
-    .footer-quick-links {
+    .ft-quickLink {
         padding-left: 0;
         list-style-type: none;
         display: -ms-flexbox;
@@ -5108,7 +5108,7 @@ Footer Area CSS
             }
         }
     }
-    .footer-contact-info {
+    .ft-contInf {
         padding-left: 0;
         list-style-type: none;
         margin: {
@@ -5158,7 +5158,7 @@ Footer Area CSS
         }
     }
 }
-.copyright-area {
+.copy-zone {
     margin-top: 40px;
     border-top: 1px solid #493f49;
     padding: {

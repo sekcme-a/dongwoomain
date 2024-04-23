@@ -27,19 +27,19 @@ const ContactContent = ({type}) => {
 
     return (
         <>
-            <section className="contact-area ptb-100">
+            <section className="cont-zone ptb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-12">
-                            <div className="section-title">
-                                <span className="sub-title">동우그룹</span>
+                            <div className="sec-title">
+                                <span className="subtitle">동우그룹</span>
                                 <h2>{type==="type2" ? "건의사항" : "사업문의"}</h2>
                                 <p style={{fontWeight:"normal"}}>
                                   {type==="type2" ? "어떤 내용이든 건의하시면 답변해드리겠습니다.": "사업에 관한 문의는 언제든 환영합니다. 동우그룹에 문의해 보세요!"}</p>
                             </div>
 
-                            <div className="contact-info">
-                                <ul className="contact-list">
+                            <div className="cont-inf">
+                                <ul className="contList">
                                     <li style={{whiteSpace:"pre-line"}}>
                                         <div className="icon">
                                             <i className="flaticon-location"></i>
@@ -92,8 +92,8 @@ const ContactContent = ({type}) => {
                         </div>
 
                         <div className="col-lg-6 col-md-12">
-                            <div className="section-title">
-                                <span className="sub-title">{type==="type2" ? "건의할 내용이 있으신가요?":"문의할 내용이 있으신가요?"}</span>
+                            <div className="sec-title">
+                                <span className="subtitle">{type==="type2" ? "건의할 내용이 있으신가요?":"문의할 내용이 있으신가요?"}</span>
                                 <h2>{type==="type2" ? "건의사항 작성" : "문의 작성"}</h2>
                                 <p style={{fontWeight:"normal"}}>
                                   {type==="type2" ? "동우그룹에 건의할 내용을 작성해주세요. 빠른 시일내에 답변해드리겠습니다.":"문의할 내용을 작성해주세요. 빠른 시일내에 답변해드리겠습니다."}</p>

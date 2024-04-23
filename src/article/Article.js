@@ -40,7 +40,7 @@ const NewsCardContent = ({type, data}) => {
                     </h3>
 
                     {/* <Link href="/news-details">
-                        <a className="default-btn">Read More <span></span></a>
+                        <a className="dwg-single-btn">Read More <span></span></a>
                     </Link> */}
                 </div>
             </div>
