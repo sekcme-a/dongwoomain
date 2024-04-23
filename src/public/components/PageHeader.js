@@ -5,11 +5,11 @@ import Link from 'next/link';
 const PageHeader = ({main, sub, link}) => {
     return(
         <>
-        <div className="page-title-area item-bg1">
+        <div className="dwg-titleZone item-bg1">
             <div className="d-table">
                 <div className="d-table-cell">
                     <div className="container">
-                        <div className="page-title-content">
+                        <div className="dwg-titleCon">
                             <h2>{sub}</h2>
                             <ul>
                                 <li>

@@ -503,17 +503,17 @@
   .place-image-slides {
     height: auto;
   }
-  .single-blog-post .post-image .date {
+  .dwg-blogP .post-image .date {
     padding: 10px 20px 0;
   }
-  .single-blog-post .post-content {
+  .dwg-blogP .post-content {
     padding: 20px;
   }
-  .single-blog-post .post-content h3 {
+  .dwg-blogP .post-content h3 {
     font-size: 20px;
     line-height: 1.4;
   }
-  .single-blog-post .post-content .dwg-single-btn {
+  .dwg-blogP .post-content .dwg-single-btn {
     padding-top: 13px;
     padding-bottom: 13px;
   }
@@ -546,21 +546,21 @@
     display: block;
     width: 100%;
   }
-  .page-title-area {
+  .dwg-titleZone {
     height: 100%;
     padding-top: 140px;
     padding-bottom: 60px;
   }
-  .page-title-content {
+  .dwg-titleCon {
     margin-top: 0;
   }
-  .page-title-content h2 {
+  .dwg-titleCon h2 {
     font-size: 30px;
   }
-  .page-title-content ul {
+  .dwg-titleCon ul {
     margin-top: 10px;
   }
-  .page-title-content ul li {
+  .dwg-titleCon ul li {
     font-size: 15px;
   }
   .tab .tabs {
@@ -982,13 +982,13 @@
   .modal-video-inner {
     padding: 0 15px;
   }
-  .go-top {
+  .goto-head {
     width: 35px;
     height: 35px;
     line-height: 35px;
     border-radius: 50%;
   }
-  .go-top i {
+  .goto-head i {
     border-radius: 50%;
   }
   .dwg-nvb-area.dwg-nvb-style2 .dwg-nav .navbar .navbar-brand .white-logo {
@@ -1276,10 +1276,10 @@
   .place-image-slides {
     height: auto;
   }
-  .page-title-area {
+  .dwg-titleZone {
     height: 385px;
   }
-  .page-title-content {
+  .dwg-titleCon {
     margin-top: 65px;
   }
   .tab .tabs li {
@@ -1374,7 +1374,7 @@
   .dwg-nav .navbar .oth-opt {
     display: none;
   }
-  .single-blog-post .post-content h3 {
+  .dwg-blogP .post-content h3 {
     font-size: 20px;
   }
   .ptb-100 {
@@ -1442,7 +1442,7 @@
   .dwg-nvb-area.dwg-nvb-style2.is-sticky .dwg-nav .navbar {
     background-color: transparent;
   }
-  .page-title-content h2 {
+  .dwg-titleCon h2 {
     font-size: 40px;
   }
   .single-event-box .event-content .content h3 {
@@ -1509,7 +1509,7 @@
   .dwg-banner-content h1 {
     font-size: 50px;
   }
-  .single-blog-post .post-content h3 {
+  .dwg-blogP .post-content h3 {
     font-size: 19px;
   }
   .about-title h2 {

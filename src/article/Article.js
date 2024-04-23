@@ -19,7 +19,7 @@ const NewsCardContent = ({type, data}) => {
 
     return (
         <>
-            <div className="single-blog-post" onClick={() => router.push(`/post/${type}/${data.id}`)}>
+            <div className="dwg-blogP" onClick={() => router.push(`/post/${type}/${data.id}`)}>
                 <div className="post-image">
                     <Link href={`/post/${type}/${data.id}`}>
                         <a>

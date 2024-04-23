@@ -1,58 +1,10 @@
 @charset "UTF-8";
-/*
-@File: Tuam Template Styles
 
-* This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
-
-This files table contents are outlined below>>>>>
-
-*******************************************
-*******************************************
-
-** - Default CSS
-** - Preloader Area CSS
-** - Navbar Area CSS
-** - Main Banner Area CSS
-** - About Area CSS
-** - Video Area CSS
-** - Services Area CSS
-** - Services Details Area CSS
-** - Partner Area CSS
-** - Gallery Area CSS
-** - Why Choose Us Area CSS
-** - Benefits Area CSS
-** - Pricing Area CSS
-** - Join Area CSS
-** - Feedback Area CSS
-** - Our Mission Area CSS
-** - Team Area CSS
-** - Event Area CSS
-** - Event Details Area CSS
-** - Place Area CSS
-** - Floor Plans CSS
-** - Blog Area CSS
-** - Blog Details Area CSS
-** - Page Title Area CSS
-** - Pagination Area CSS
-** - Sidebar Widget Area CSS
-** - Subscribe Area CSS
-** - 404 Error Area CSS
-** - Contact Area CSS
-** - Footer Area CSS
-** - Go Top CSS
-*/
-/*================================================
-Default CSS
-=================================================*/
-
-/* Add the initial styles for the animation */
-.animated-element {
+/* .animated-element {
   opacity: 0;
   transform-origin: center;
   transition: all var(--duration, 1s) cubic-bezier(0, 0, 0.2, 1) var(--delay, 0s);
-}
+} */
 
 
 body {
@@ -262,7 +214,7 @@ button {
 /*================================================
 Preloader Area CSS
 =================================================*/
-.preloader {
+/* .preloader {
   text-align: center;
   position: fixed;
   left: 0;
@@ -434,7 +386,7 @@ Preloader Area CSS
     -webkit-transform: translate3d(-220px, 0, 0);
             transform: translate3d(-220px, 0, 0);
   }
-}
+} */
 
 /*================================================
 Navbar Area CSS
@@ -2289,7 +2241,7 @@ Services Details Area CSS
 /*================================================
 Partner Area CSS
 =================================================*/
-.partner-title {
+/* .partner-title {
   text-align: center;
 }
 
@@ -2318,12 +2270,12 @@ Partner Area CSS
 .single-partner-item:hover a img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-}
+} */
 
 /*================================================
 Gallery Area CSS
 =================================================*/
-.shorting-menu {
+/* .shorting-menu {
   text-align: center;
   margin-bottom: 40px;
 }
@@ -2426,12 +2378,12 @@ Gallery Area CSS
   visibility: visible;
   margin-top: 0;
   cursor: pointer;
-}
+} */
 
 /*================================================
 Why Choose Us Area CSS
 =================================================*/
-.why-choose-us-area .dwg-con-fluid {
+/* .why-choose-us-area .dwg-con-fluid {
   padding: 0;
 }
 
@@ -2544,12 +2496,12 @@ Why Choose Us Area CSS
 .why-choose-us-content .content .features-list li:hover .icon {
   background-color: #ff5d22;
   color: #ffffff;
-}
+} */
 
 /*================================================
 Benefits Area CSS
 =================================================*/
-.single-benefits-box {
+/* .single-benefits-box {
   padding: 25px 14px;
   margin-bottom: 22px;
   background-color: #f8f8f8;
@@ -2610,12 +2562,12 @@ Benefits Area CSS
 
 .benefits-image {
   text-align: center;
-}
+} */
 
 /*================================================
 Pricing Area CSS
 =================================================*/
-.single-pricing-box {
+/* .single-pricing-box {
   margin-bottom: 30px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
@@ -2761,7 +2713,7 @@ Pricing Area CSS
 
 .single-pricing-box .pricing-features-list li:last-child {
   margin-bottom: 0;
-}
+} */
 
 /*================================================
 Join Area CSS
@@ -2823,7 +2775,7 @@ Join Area CSS
 /*================================================
 Feedback Area CSS
 =================================================*/
-.single-feedback-item {
+/* .single-feedback-item {
   text-align: center;
   position: relative;
   margin-bottom: 30px;
@@ -2916,12 +2868,12 @@ Feedback Area CSS
 
 .feedback-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #ff5d22;
-}
+} */
 
 /*================================================
 Our Mission Area CSS
 =================================================*/
-.our-mission-area {
+/* .our-mission-area {
   background-color: #524552;
 }
 
@@ -2999,12 +2951,12 @@ Our Mission Area CSS
 
 .mission-text .dwg-single-btn:hover, .mission-text .dwg-single-btn:focus {
   color: #ff5d22;
-}
+} */
 
 /*================================================
 Team Area CSS
 =================================================*/
-.single-team-box {
+/* .single-team-box {
   margin-bottom: 30px;
   text-align: center;
   border-radius: 5px;
@@ -3082,9 +3034,9 @@ Team Area CSS
 
 .single-team-box:hover .image .social {
   bottom: 15px;
-}
+} */
 
-.team-slides .swiper-pagination {
+/* .team-slides .swiper-pagination {
   position: initial;
   line-height: 1;
 }
@@ -3100,12 +3052,12 @@ Team Area CSS
 
 .team-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #ff5d22;
-}
+} */
 
 /*================================================
 Event Area CSS
 =================================================*/
-.event-area {
+/* .event-area {
   background-color: #fafafa;
 }
 
@@ -3231,12 +3183,12 @@ Event Area CSS
 
 .single-event-box .event-content .content .dwg-single-btn {
   margin-top: 25px;
-}
+} */
 
 /*================================================
 Event Details Area CSS
 =================================================*/
-.event-details-area .widget-area {
+/* .event-details-area .widget-area {
   padding-left: 25px;
   margin-top: 123px;
 }
@@ -3302,12 +3254,12 @@ Event Details Area CSS
 
 .event-details .post-navigation {
   margin-top: 35px;
-}
+} */
 
 /*================================================
 Place Area CSS
 =================================================*/
-.place-area .dwg-con-fluid {
+/* .place-area .dwg-con-fluid {
   padding: 0;
 }
 
@@ -3450,12 +3402,12 @@ Place Area CSS
 
 .place-image-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #ff5d22;
-}
+} */
 
 /*================================================
 Floor Plans CSS
 =================================================*/
-.floor-plans-area {
+/* .floor-plans-area {
   background-image: url(/images/background.jpg);
   background-position: center center;
   background-size: cover;
@@ -3574,12 +3526,12 @@ Floor Plans CSS
 
 .tab .tab_content .tabs_item .tabs_item_content .dwg-single-btn {
   margin-top: 30px;
-}
+} */
 
 /*================================================
 Blog Area CSS
 =================================================*/
-.single-blog-post {
+.dwg-blogP {
   margin-bottom: 30px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
@@ -3587,21 +3539,21 @@ Blog Area CSS
   border-radius: 5px;
 }
 
-.single-blog-post .post-image {
+.dwg-blogP .post-image {
   position: relative;
 }
 
-.single-blog-post .post-image a {
+.dwg-blogP .post-image a {
   display: block;
 }
 
-.single-blog-post .post-image a img {
+.dwg-blogP .post-image a img {
   border-radius: 5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.single-blog-post .post-image .date {
+.dwg-blogP .post-image .date {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -3613,31 +3565,31 @@ Blog Area CSS
   font-weight: 300;
 }
 
-.single-blog-post .post-image .date i {
+.dwg-blogP .post-image .date i {
   color: #ff5d22;
   margin-right: 5px;
 }
 
-.single-blog-post .post-content {
+.dwg-blogP .post-content {
   padding: 25px;
 }
 
-.single-blog-post .post-content h3 {
+.dwg-blogP .post-content h3 {
   margin-bottom: 10px;
   line-height: 1.3;
   font-size: 24px;
   font-weight: 600;
 }
 
-.single-blog-post .post-content p {
+.dwg-blogP .post-content p {
   margin-bottom: 0;
 }
 
-.single-blog-post .post-content .dwg-single-btn {
+.dwg-blogP .post-content .dwg-single-btn {
   margin-top: 20px;
 }
 
-.single-blog-post:hover .post-image a img {
+.dwg-blogP:hover .post-image a img {
   opacity: .80;
 }
 
@@ -3662,7 +3614,7 @@ Blog Area CSS
 /*================================================
 Blog Details Area CSS
 =================================================*/
-.blog-details-desc .article-content {
+/* .blog-details-desc .article-content {
   margin-top: 30px;
 }
 
@@ -3878,9 +3830,9 @@ Blog Details Area CSS
 
 .blog-details-desc .post-navigation {
   margin-top: 30px;
-}
+} */
 
-blockquote, .blockquote {
+/* blockquote, .blockquote {
   overflow: hidden;
   background-color: #fafafa;
   padding: 50px !important;
@@ -3926,9 +3878,9 @@ blockquote::after, .blockquote::after {
   background-color: #ff5d22;
   margin-top: 20px;
   margin-bottom: 20px;
-}
+} */
 
-.post-navigation {
+/* .post-navigation {
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding-top: 20px;
@@ -3981,9 +3933,9 @@ blockquote::after, .blockquote::after {
 .post-navigation .navigation-links div a {
   display: inline-block;
   font-weight: 600;
-}
+} */
 
-.comments-area {
+/* .comments-area {
   padding: 25px;
   margin-top: 30px;
   -webkit-box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
@@ -4233,12 +4185,12 @@ blockquote::after, .blockquote::after {
 .comments-area .comment-respond .form-submit input:hover, .comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
   background-color: #524552;
-}
+} */
 
 /*================================================
 Page Title Area CSS
 =================================================*/
-.page-title-area {
+.dwg-titleZone {
   height: 450px;
   position: relative;
   z-index: 1;
@@ -4247,7 +4199,7 @@ Page Title Area CSS
   background-repeat: no-repeat;
 }
 
-.page-title-area::before {
+.dwg-titleZone::before {
   content: '';
   position: absolute;
   left: 0;
@@ -4259,26 +4211,26 @@ Page Title Area CSS
   opacity: .60;
 }
 
-.page-title-content {
+.dwg-titleCon {
   text-align: center;
   margin-top: 140px;
 }
 
-.page-title-content h2 {
+.dwg-titleCon h2 {
   margin-bottom: 0;
   color: #ffffff;
   font-size: 42px;
   font-weight: 700;
 }
 
-.page-title-content ul {
+.dwg-titleCon ul {
   padding-left: 0;
   list-style-type: none;
   margin-top: 12px;
   margin-bottom: 0;
 }
 
-.page-title-content ul li {
+.dwg-titleCon ul li {
   color: #ffffff;
   display: inline-block;
   position: relative;
@@ -4288,12 +4240,12 @@ Page Title Area CSS
   margin-right: 15px;
 }
 
-.page-title-content ul li a {
+.dwg-titleCon ul li a {
   display: inline-block;
   color: #ffffff;
 }
 
-.page-title-content ul li::before {
+.dwg-titleCon ul li::before {
   content: '';
   position: absolute;
   right: -18px;
@@ -4304,14 +4256,14 @@ Page Title Area CSS
   background-color: #ff5d22;
 }
 
-.page-title-content ul li:last-child::before {
+.dwg-titleCon ul li:last-child::before {
   display: none;
 }
 
 /*================================================
 Pagination Area CSS
 =================================================*/
-.pagination-area {
+/* .pagination-area {
   margin-top: 35px;
   text-align: center;
 }
@@ -4336,13 +4288,13 @@ Pagination Area CSS
   color: #ffffff;
   -webkit-box-shadow: 0 2px 10px 0 #d8dde6;
           box-shadow: 0 2px 10px 0 #d8dde6;
-}
+} */
 
 /*================================================
 Sidebar Widget Area CSS
 =================================================*/
-.widget-area {
-  padding-left: 10px;
+/* .widget-area { */
+  /* padding-left: 10px;
 }
 
 .widget-area .widget {
@@ -4757,12 +4709,12 @@ Sidebar Widget Area CSS
 
 .widget-area .widget_event_details ul li a:hover {
   color: #ff5d22;
-}
+} */
 
 /*================================================
 Subscribe Area CSS
 =================================================*/
-.subscribe-area {
+/* .subscribe-area {
   margin-bottom: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid #493f49;
@@ -4851,12 +4803,12 @@ Subscribe Area CSS
   position: absolute;
   left: 0;
   bottom: -32px;
-}
+} */
 
 /*================================================
 404 Error Area CSS
 =================================================*/
-.error-area {
+/* .error-area {
   height: 100vh;
 }
 
@@ -4876,7 +4828,7 @@ Subscribe Area CSS
 .error-content p {
   max-width: 520px;
   margin: 0 auto 20px;
-}
+} */
 
 /*================================================
 Contact Area CSS
@@ -4893,11 +4845,11 @@ Contact Area CSS
   margin-right: 0;
 }
 
-.contact-form form .form-group {
+.dwg-contF form .form-group {
   margin-bottom: 15px;
 }
 
-.contact-form form .form-control {
+.dwg-contF form .form-control {
   background-color: #ffffff;
   border: none;
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
@@ -4907,49 +4859,49 @@ Contact Area CSS
   font-size: 15px;
 }
 
-.contact-form form .form-group {
+.dwg-contF form .form-group {
   text-align: left;
 }
 
-.contact-form form .row {
+.dwg-contF form .row {
   margin-left: -7px;
   margin-right: -7px;
 }
 
-.contact-form form .row .col-lg-12, .contact-form form .row .col-lg-6 {
+.dwg-contF form .row .col-lg-12, .dwg-contF form .row .col-lg-6 {
   padding-left: 7px;
   padding-right: 7px;
 }
 
-.contact-form form textarea.form-control {
+.dwg-contF form textarea.form-control {
   height: auto;
   padding-top: 15px;
 }
 
-.contact-form form .dwg-single-btn {
+.dwg-contF form .dwg-single-btn {
   margin-top: 10px;
   border: none;
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.5) !important;
           box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.5) !important;
 }
 
-.contact-form form .help-block ul {
+.dwg-contF form .help-block ul {
   padding-left: 0;
   list-style-type: none;
   margin-top: 5px;
   margin-bottom: 0;
 }
 
-.contact-form form .help-block ul li {
+.dwg-contF form .help-block ul li {
   color: red;
 }
 
-.contact-form form #msgSubmit {
+.dwg-contF form #msgSubmit {
   margin-bottom: 0;
   text-align: center !important;
 }
 
-.contact-form form #msgSubmit.text-danger, .contact-form form #msgSubmit.text-success {
+.dwg-contF form #msgSubmit.text-danger, .dwg-contF form #msgSubmit.text-success {
   margin-top: 8px;
   font-size: 20px;
   font-weight: 600;
@@ -5325,7 +5277,7 @@ Footer Area CSS
 /*================================================
 Go Top CSS
 =================================================*/
-.go-top {
+.goto-head {
   position: fixed;
   cursor: pointer;
   bottom: 15px;
@@ -5341,7 +5293,7 @@ Go Top CSS
   transition: .9s;
 }
 
-.go-top.active {
+.goto-head.active {
   top: 98%;
   -webkit-transform: translateY(-98%);
           transform: translateY(-98%);
@@ -5349,7 +5301,7 @@ Go Top CSS
   visibility: visible;
 }
 
-.go-top i {
+.goto-head i {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -5361,13 +5313,13 @@ Go Top CSS
   transition: 0.5s;
 }
 
-.go-top i:last-child {
+.goto-head i:last-child {
   opacity: 0;
   visibility: hidden;
   top: 60%;
 }
 
-.go-top::before {
+.goto-head::before {
   content: '';
   position: absolute;
   top: 0;
@@ -5382,22 +5334,22 @@ Go Top CSS
   transition: 0.5s;
 }
 
-.go-top:hover, .go-top:focus {
+.goto-head:hover, .goto-head:focus {
   color: #ffffff;
 }
 
-.go-top:hover::before, .go-top:focus::before {
+.goto-head:hover::before, .goto-head:focus::before {
   opacity: 1;
   visibility: visible;
 }
 
-.go-top:hover i:first-child, .go-top:focus i:first-child {
+.goto-head:hover i:first-child, .goto-head:focus i:first-child {
   opacity: 0;
   top: 0;
   visibility: hidden;
 }
 
-.go-top:hover i:last-child, .go-top:focus i:last-child {
+.goto-head:hover i:last-child, .goto-head:focus i:last-child {
   opacity: 1;
   visibility: visible;
   top: 50%;

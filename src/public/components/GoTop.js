@@ -39,7 +39,7 @@ export default class GoTop extends Component {
         return (
             <div className="scroll-to-top">
                 {is_visible && (
-                    <div className="go-top" onClick={() => this.scrollToTop()}>
+                    <div className="goto-head" onClick={() => this.scrollToTop()}>
                         <i className="fas fa-chevron-up"></i>
                         <i className="fas fa-chevron-up"></i>
                     </div>

@@ -55,7 +55,7 @@ const ContactForm = ({type}) => {
     };
 
     return (
-        <div className="contact-form">
+        <div className="dwg-contF">
             <form onSubmit={handleSubmit}>
                 <div className="row">
                     <div className="col-lg-6 col-md-6">

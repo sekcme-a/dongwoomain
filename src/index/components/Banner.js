@@ -104,7 +104,7 @@ const Banner = () => {
                                             <i className="flaticon-email"></i>
                                             <span>이메일 주소</span>
                                             <a href={`mailto:${data.main.email ?? "dongwoodh@hanmail.net"}`}>{data.main.email ??  "dongwoodh@hanmail.net"} <EditButton type="main" item="email" text="이메일" /></a>
-                                            {/* <a href="mailto:support@tuam.com">support@tuam.com</a> */}
+                                    
                                         </li>
 
                                         <li>
