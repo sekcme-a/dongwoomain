@@ -13,7 +13,7 @@ import { useRouter } from 'next/router';
 
 import App from 'next/app';
 import Head from 'next/head';
-// import Loader from 'src/public/components/Loader';
+import Loader from 'src/public/components/Loader';
 import GoTop from 'src/public/components/GoTop';
 import Footer from 'src/public/components/Footer';
 import Script from 'next/script';
@@ -53,7 +53,7 @@ const MyApp = ({Component, pageProps}) => {
                             {router.pathname!=="/" && router.pathname!=="/admin/login" && <PageNavbar />}
                             <Component {...pageProps} />
                             {router.pathname!=="/admin/login" && <Footer />}
-                            {/* <Loader />  */}
+                            <Loader /> 
                             <EditControl />
                         </AuthStateChanged>
                     </DataProvider>
