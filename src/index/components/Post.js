@@ -123,7 +123,8 @@ const Post = () => {
                 if(!isLiHover1) router.push(`/article/announcement`)}}
             >
 
-              <Image   loading="lazy"
+              <Image   
+              // loading="lazy"
                 src={data.main.postImg1 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FpostImg1?alt=media&token=61c49ed0-e2d1-4fb8-9693-fd680cbd663f"} alt="공지사항" 
                 layout="fill"
               />

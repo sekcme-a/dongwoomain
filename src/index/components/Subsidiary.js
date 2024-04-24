@@ -55,8 +55,8 @@ const Card = () => {
                 width={300}
                 height={200}
                 objectFit='contain'
-                style={{height:"100%"}}
-                loading="lazy"
+                // style={{height:"100%"}}  
+                // loading="lazy"
               />
               <EditButton type="main" item="subSidiaryImg1" text="이미지 삽입" mode="image" defaultImg="/example-logo.png"/>
   
@@ -81,8 +81,8 @@ const Card = () => {
                 width={300}
                 height={200}
                 objectFit='contain'
-                style={{height:"100%"}}
-                loading="lazy"
+                // style={{height:"100%"}}
+                // loading="lazy"
               />
               <EditButton type="main" item="subSidiaryImg2" text="이미지 삽입" mode="image" defaultImg="/example-logo.png"/>
             </div>
@@ -107,8 +107,8 @@ const Card = () => {
                 width={300}
                 height={200}
                 objectFit='contain'
-                style={{height:"100%"}}
-                loading="lazy"
+                // style={{height:"100%"}}
+                // loading="lazy"
               />
               
               <EditButton type="main" item="subSidiaryImg3" text="이미지 삽입" mode="image" defaultImg="/example-logo.png"/>

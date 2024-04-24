@@ -22,7 +22,6 @@ const AboutUs = () => {
                                         alt="about us"
                                         width={460}
                                         height={570}
-                                        loading='lazy'
                                         objectFit='contain'
                                         className={styles.img1}
                                     />
