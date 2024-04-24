@@ -14,8 +14,8 @@ const JoinNow = () => {
                     alt="사업문의 배경"
                     layout='fill'
                     objectFit='cover'
-                    loading='lazy'
-                    quality={50}
+                    // loading='lazy'
+                    // quality={50}
                     style={{zIndex:"-1"}}
                 />
                 <div className="container">

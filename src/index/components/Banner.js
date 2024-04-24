@@ -35,8 +35,8 @@ const Banner = () => {
                         >
                             <Image
                             src={data.main.bannerBg ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FbannerBg?alt=media&token=38faae2d-6bc7-4331-9bc9-d743f882fb95"}
-                            quality={30}
-                            loading="eager"
+                            // quality={30}
+                            // loading="eager"
                             alt="메인 배경"
                             layout='fill'
                             />

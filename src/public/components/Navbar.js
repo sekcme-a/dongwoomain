@@ -44,10 +44,10 @@ const NavbarTwo = () => {
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <Image src="/logo-white.png" alt="logo" className="white-logo" width={120} height={40} objectFit='contain' quality={100}/>
+                                    <Image src="/logo-white.png" alt="logo" className="white-logo" width={120} height={40} objectFit='contain' />
 
                                     {/* For mobile device */}
-                                    <Image src="/logo-black.png" alt="logo" className="logo" width={120} height={40} objectFit='contain' quality={100}/>
+                                    <Image src="/logo-black.png" alt="logo" className="logo" width={120} height={40} objectFit='contain' />
                                 </a>
                             </Link>
 
