@@ -23,7 +23,7 @@ const Footer = () =>  {
                                 <div className="logo">
                                     <Link href="/">
                                         <a>
-                                            <Image src="/logo-white.png" alt="동우그룹 로고" width={120} height={50} objectFit='contain'/>
+                                            <img src="/logo-white.png" alt="동우그룹 로고" width={120} height={50} objectFit='contain'/>
                                         </a>
                                     </Link>
 

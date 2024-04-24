@@ -29,7 +29,7 @@ const OrganizationImage = () => {
       {/* <h1 style={{textAlign:"center", color:"black", fontWeight:'bold'}}>동우그룹의 조직도를 소개합니다.</h1> */}
       <EditButton type="organization" item="imgUrl" text="조직도 이미지 삽입" mode="image" defaultImg="/dwgroup_organization.png"/>
       <div style={{width:"100%",height:"120vh", position:"relative"}}>
-        <Image
+        <img
           src={fetchedData.imgUrl ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Forganization%2FimgUrl?alt=media&token=86d699e8-3095-458f-8766-91822354e246"}
           alt="동우그룹 조직도"
           // width={500}

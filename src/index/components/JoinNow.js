@@ -9,7 +9,7 @@ const JoinNow = () => {
     return (
         <>
             <section className="joinar ptb-100">
-                <Image
+                {/* <img
                     src="/joinNow.jpg"
                     alt="사업문의 배경"
                     layout='fill'
@@ -17,7 +17,7 @@ const JoinNow = () => {
                     // loading='lazy'
                     // quality={50}
                     style={{zIndex:"-1"}}
-                />
+                /> */}
                 <div className="container">
                     <div className="joincont" >
                         <h2 style={{ position: "relative", zIndex:"9999"}}>사업문의</h2>

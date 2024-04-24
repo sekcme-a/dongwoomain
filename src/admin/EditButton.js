@@ -44,7 +44,7 @@ const EditButton = ({type, item, text, defaultImg,  mode="text", style={}}) => {
           <div className={styles.dialog_container}>
             {/* {type==="number" && <Number />} */}
             {mode==="text" && <BasicInput {...{type, item, text}} />}
-            {mode==="image" && <ImageInput {...{type, item, text, defaultImg}} />}
+            {mode==="image" && <imgInput {...{type, item, text, defaultImg}} />}
             {mode==="list" && <ListInput {...{type, item, text}} />}
             {mode==="arrOfObj" && <ArrOfObjInput {...{type, item, text}} />}
             {mode==="arrOfObj_Hrd" && <ArrOfObjHrdInput {...{type, item, text}} />}

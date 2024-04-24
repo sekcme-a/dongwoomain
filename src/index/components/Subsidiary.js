@@ -49,7 +49,7 @@ const Card = () => {
                 src={data?.main?.subSidiaryImg1 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FsubSidiaryImg1?alt=media&token=6d077f54-7065-4f20-bb97-2cffb06e6932"}
                 alt="동우개발 로고"
               /> */}
-              <Image
+              <img
                 src={data?.main?.subSidiaryImg1 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FsubSidiaryImg1?alt=media&token=6d077f54-7065-4f20-bb97-2cffb06e6932"}
                 alt="동우개발 로고"
                 width={300}
@@ -75,7 +75,7 @@ const Card = () => {
         <div className={styles.container2}>
           <div className={styles.card}>
             <div className={styles.image}>
-              <Image
+              <img
                  src={data?.main?.subSidiaryImg2 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FsubSidiaryImg2?alt=media&token=2610edf6-3000-470c-8622-fba8d7b0a4b5"}
                 alt="혜진종합관리 로고"
                 width={300}
@@ -101,7 +101,7 @@ const Card = () => {
           <div className={styles.card}>
             <div className={styles.image}>
               
-              <Image
+              <img
                 src={data?.main?.subSidiaryImg3 ?? "https://firebasestorage.googleapis.com/v0/b/dongwoo-315ab.appspot.com/o/data%2Fmain%2FsubSidiaryImg3?alt=media&token=7d7d0eaf-a1bf-496e-a908-e749cc473336"}
                 alt="삼성조경 로고"
                 width={300}
