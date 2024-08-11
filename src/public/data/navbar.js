@@ -68,10 +68,10 @@ export const NavbarList = [
         text:"동행뉴스",
         url:"/article/news"
       },
-      {
-        text:"동우사보",
-        url:"/article/gallery"
-      },
+      // {
+      //   text:"동우사보",
+      //   url:"/article/gallery"
+      // },
       {
         text:"동우24시",
         url:"/article/24h"

@@ -101,11 +101,11 @@ const Footer = () =>  {
                                             <a>동행뉴스</a>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/article/gallery">
                                             <a>동우사보</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <Link href="/service/contact">
                                             <a>사업문의</a>

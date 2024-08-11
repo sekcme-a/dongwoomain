@@ -33,8 +33,8 @@ const Article = () => {
       setTypeText("동행뉴스")
     else if(type==="24h")
       setTypeText("동우24시")
-    else if(type==="gallery")
-      setTypeText("동우사보")
+    // else if(type==="gallery")
+    //   setTypeText("동우사보")
   },[type])
 
 
