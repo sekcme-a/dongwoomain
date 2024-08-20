@@ -20,10 +20,10 @@ const NewsCardContent = ({type, data}) => {
     return (
         <>
             <div className="dwg-blogP" onClick={() => router.push(`/post/${type}/${data.id}`)}>
-                <div className="post-image">
+                <div className="post-image" style={{height:"220px", display:"flex", justifyContent:"center"}}>
                     <Link href={`/post/${type}/${data.id}`}>
                         <a>
-                            <img src={data.thumbnailImg} alt={data.title} />
+                            <img src={data.thumbnailImg} alt={data.title}  style={{height:"220px", objectFit:"cover"}}/>
                         </a>
                     </Link>
 
@@ -33,7 +33,16 @@ const NewsCardContent = ({type, data}) => {
                 </div>
 
                 <div className="post-content">
-                    <h3 style={{fontSize:"16px", fontWeight:"normal"}}>
+                    <h3 style={{
+                        fontSize: "16px", 
+                        fontWeight: "normal", 
+                        height: "40px",  // 2줄에 맞는 높이 설정
+                        overflow: "hidden", 
+                        textOverflow: "ellipsis", 
+                        display: "-webkit-box", 
+                        WebkitLineClamp: 2,  // 2줄로 제한
+                        WebkitBoxOrient: "vertical", 
+                    }}>
                         <Link href={`/post/${type}/${data.id}`}>
                             <a>{data.title}</a>
                         </Link>
