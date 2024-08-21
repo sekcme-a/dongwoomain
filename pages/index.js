@@ -11,6 +11,7 @@ import HeadMeta from 'src/public/HeadMeta';
 import PopUp from "src/index/components/PopUp"
 
 import useData from 'context/data';
+import RecentPost from 'src/index/components/RecentPost';
 
 
 const Index2 = () => {
@@ -31,6 +32,19 @@ const Index2 = () => {
             <PopUp />
             <Navbar />
             <Banner />
+            <RecentPost />
+            <div style={{display:"flex", justifyContent:"center", marginTop:"60px", flexWrap:"wrap"}}>
+                <div style={{width:"100%", display:"flex", justifyContent:"center"}}>
+                    <div style={{width:"80px", backgroundColor:"rgb(200,200,200)", height:"1px"}} />
+                </div>
+                <div style={{width:"100%", display:"flex", justifyContent:"center", marginTop:"5px"}}>
+                    <div style={{width:"50px", backgroundColor:"rgb(200,200,200)", height:"1px"}} />
+                </div>
+                <div style={{width:"100%", display:"flex", justifyContent:"center", marginTop:"5px"}}>
+                    <div style={{width:"30px", backgroundColor:"rgb(200,200,200)", height:"1px"}} />
+                </div>
+            
+            </div>
             <AboutUs />
             <JoinNow />
             <Service />

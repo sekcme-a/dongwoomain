@@ -42,6 +42,7 @@ export function DataProvider(props){
     const query = await db.collection("team").doc("dongwoomain").collection("posts").where("condition", "==", "게제중").where("type","==",type).orderBy("publishedAt", "desc").orderBy("savedAt", "desc").get()
 
     const list = query.docs.map(doc=>({...doc.data(), id: doc.id}))
+
     setThumbnailsList(prevList => ({...prevList, [type]: list}))
   }
 
@@ -50,7 +51,6 @@ export function DataProvider(props){
   const fetch_post = async (postId) => {
     const doc = await db.collection("team").doc("dongwoomain").collection("posts").doc(postId).get()
     if (doc.exists) {
-      console.log(doc.data())
       setPostsList(prevList => ({
         ...prevList,
         [postId] : doc.data()

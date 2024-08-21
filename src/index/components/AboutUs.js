@@ -10,6 +10,7 @@ const AboutUs = () => {
     const {data} = useData()
     return (
         <>
+           
             <section className="about-section ptb-100">
                 <div className="dwg-con-fluid">
                     <div className="row align-items-center">

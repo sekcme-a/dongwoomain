@@ -123,7 +123,7 @@ const Service = () => {
                                                 <EditButton type="main" item={`serviceUrl${index}`} text="이동할 주소 (https나 http를 포함한 전체주소)" />
                                                 <h3>
                                                     <Link href={item.url ? item.url : "/" }>
-                                                        <a>{item.title} {console.log(item.url)}</a>
+                                                        <a>{item.title}</a>
                                                     </Link>
                                                     <EditButton type="main" item={`serviceTitle${index}`} text="제목" />
                                                 </h3>
