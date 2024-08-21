@@ -44,7 +44,7 @@ const RecentPost = () => {
                       textOverflow: "ellipsis",
                       flex: 1,
                       marginBottom: 0,
-                      color:"inherit", fontWeight:"400"
+                      color:"inherit", fontWeight:"400",fontSize:"17px"
                     }}>{item.title}</p>
                     <p style={{paddingLeft:"20px", fontSize:"13px", color:"inherit", fontWeight: 400}}>
                       {item.publishedAt}
@@ -88,7 +88,7 @@ const RecentPost = () => {
                       textOverflow: "ellipsis",
                       flex: 1,
                       marginBottom: 0,
-                      color:"inherit", fontWeight:"400",
+                      color:"inherit", fontWeight:"400",fontSize:"17px"
                     }}>{item.title}</p>
                     <p style={{paddingLeft:"20px", fontSize:"13px", color:"inherit", fontWeight: 400}}>
                       {item.publishedAt}
