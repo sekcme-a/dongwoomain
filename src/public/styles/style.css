@@ -1862,6 +1862,9 @@ Services Area CSS
 
 .servBox img {
   border-radius: 5px;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
 }
 
 .servBox .services-content {
