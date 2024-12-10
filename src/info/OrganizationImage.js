@@ -26,7 +26,6 @@ const OrganizationImage = () => {
 
   return(
     <div className={styles.main_container} style={{position:"relative"}}>
-      {/* <h1 style={{textAlign:"center", color:"black", fontWeight:'bold'}}>동우그룹의 조직도를 소개합니다.</h1> */}
       <EditButton type="organization" item="imgUrl" text="조직도 이미지 삽입" mode="image" defaultImg="/dwgroup_organization.png"/>
       <div style={{width:"100%",height:"120vh", position:"relative"}}>
         <img

@@ -27,7 +27,6 @@ import { DataProvider } from "context/data";
 import AuthStateChanged from "src/public/hooks/AuthStateChanged";
 
 
-
 // export default class MyApp extends App {
 
 
@@ -43,9 +42,7 @@ const MyApp = ({Component, pageProps}) => {
             <>
                 <Head>
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
-                    <meta charSet="utf-8" />
                     <meta name="robots" content="index,follow"></meta>
-                    <meta name="viewport" content="width=device-width, initial-scale=1" />
                 </Head>
                 <UserDataProvider>
                     <DataProvider>
@@ -55,6 +52,7 @@ const MyApp = ({Component, pageProps}) => {
                             {router.pathname!=="/admin/login" && <Footer />}
                             {/* <Loader />  */}
                             <EditControl />
+
                         </AuthStateChanged>
                     </DataProvider>
                 </UserDataProvider>
