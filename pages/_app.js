@@ -31,18 +31,19 @@ import AuthStateChanged from "src/public/hooks/AuthStateChanged";
 
 
 const MyApp = ({Component, pageProps}) => {
-    const router = useRouter()
     // useEffect(() => {
     //     suppressHydrationWarning(false);
     // }, []); 
     // useEffect(())
+    const router = useRouter();
+    const baseUrl = "https://www.xn--2i0bm5iryeh7q.kr";
 
-    useEffect(()=>{},[])
     return(
             <>
                 <Head>
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
                     <meta name="robots" content="index,follow"></meta>
+                    <link rel="canonical"  href={`${baseUrl}${router.asPath.split("?")[0]}`}></link>
                 </Head>
                 <UserDataProvider>
                     <DataProvider>

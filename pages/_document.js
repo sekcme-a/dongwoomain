@@ -8,7 +8,7 @@ class MyDocument extends Document {
                 <Head>
                     <meta charSet="UTF-8" />
                     <meta name="author" content="동우그룹,동우개발,dongwoogroup" />
-                    <meta name="naver-site-verification" content="519026da1e1f649d7ac7f81133328175fe47fa48" />
+                    <meta name="naver-site-verification" content="e3179986134999f3d224c49f8c65edceb45e97f5" />
                     <meta name="google-site-verification" content="KYB6KE6U0vUi9GHkbWT_hWogRp4KEDHdhGVSC00dn2s" />
 
                     <Script src="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
