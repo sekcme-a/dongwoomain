@@ -40,8 +40,14 @@ const Service = () => {
             text:"동우개발의 회계관리서비스를 소개합니다.",
             url:"/management/financial"
         },
-        
+        {
+            imgUrl: "/AB1.jpg",                      // 초기에 임시로 보여줄 6번째 카드 이미지
+            title: "커뮤니티 시설 운영",               
+            text: "삼성웰니스의 커뮤니티 시설운영서비스를 소개합니다.", 
+            url: "https://www.xn--9i1bp8xbkap3cd5j.kr/business/community"          
+        }
     ])
+
     useEffect(()=>{ 
         if(data.main)
         setServiceData([
@@ -75,72 +81,89 @@ const Service = () => {
                 text:data.main.serviceText4,
                 url:data.main.serviceUrl4,
             },
+            // ⭐ [해결책] 6번째 카드를 DB 세팅 시 강제로 결합합니다!
+            // 데이터베이스에 저장된 값이 없다면(|| 뒤에 적힌) 기본값들을 사용합니다.
+            {
+                imgUrl: data.main.serviceImgUrl5 || "/AB1.jpg",
+                title: data.main.serviceTitle5 || "커뮤니티 시설 운영",
+                text: data.main.serviceText5 || "삼성웰니스의 커뮤니티 시설운영서비스를 소개합니다.",
+                url: data.main.serviceUrl5 || "https://www.xn--9i1bp8xbkap3cd5j.kr/business/community",
+            },
         ])
     },[data?.main])
 
 
-        return (
-            <>
-                <section className="for-service ptb-100 bg-f8f8f8">
-                    <div className="container">
-                        <div className="sec-title">
-                            <h2>사업분야</h2>
-                            <p style={{fontWeight:"normal", position:"relative"}}>{data.main.serviceSubtitle ?? "동우그룹의 다양한 사업분야를 소개합니다."}<EditButton type="main" item="serviceSubtitle" text="부제목" /></p>
-                        </div>
-
-                        <Swiper
-                            spaceBetween={30}
-                            pagination={{
-                                clickable: true,
-                            }}
-                            breakpoints={{
-                                0: {
-                                    slidesPerView: 1,
-                                },
-                                768: {
-                                    slidesPerView: 2,
-                                },
-                                1024: {
-                                    slidesPerView: 3,
-                                },
-                            }}
-                            autoplay={{
-                                delay: 2500,
-                                // pauseOnMouseEnter: true,
-                            }}
-                            modules={[Pagination, Autoplay]}
-                            className="main-services-slides"
-                        >
-                            {serviceData.map((item, index) => {
-                                return(
-                                    <SwiperSlide key={index}>
-                                        
-                                        <div className="servBox" >
-                     
-                                            <img src={item.imgUrl} alt={item.title} style={{position:"relative"}} />
-
-                                            <div className="services-content" style={{position:"relative"}}>
-                                                <EditButton type="main" item={`serviceUrl${index}`} text="이동할 주소 (https나 http를 포함한 전체주소)" />
-                                                <h3>
-                                                    <Link href={item.url ? item.url : "/" }>
-                                                        <a>{item.title}</a>
-                                                    </Link>
-                                                    <EditButton type="main" item={`serviceTitle${index}`} text="제목" />
-                                                </h3>
-                                                <p style={{fontWeight:"normal", position:"relative"}}>{item.text}<EditButton type="main" item={`serviceText${index}`} text="내용" /></p>
-                                            </div><EditButton type="main" item={`serviceImgUrl${index}`} text="이미지" mode="image" defaultImg="/aboutUs1.jpg"/>
-                                        </div>
-                                        
-                                    </SwiperSlide>
-                                )
-                            })}
-                           
-                        </Swiper> 
+    return (
+        <>
+            <section className="for-service ptb-100 bg-f8f8f8">
+                <div className="container">
+                    <div className="sec-title">
+                        <h2>사업분야</h2>
+                        <p style={{fontWeight:"normal", position:"relative"}}>{data.main.serviceSubtitle ?? "동우그룹의 다양한 사업분야를 소개합니다."}<EditButton type="main" item="serviceSubtitle" text="부제목" /></p>
                     </div>
-                </section>
-            </>
-        );
-    }
 
+                    <Swiper
+                        spaceBetween={30}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        breakpoints={{
+                            0: {
+                                slidesPerView: 1,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                            },
+                        }}
+                        autoplay={{
+                            delay: 2500,
+                            // pauseOnMouseEnter: true,
+                        }}
+                        modules={[Pagination, Autoplay]}
+                        className="main-services-slides"
+                    >
+                        {serviceData.map((item, index) => {
+                            return(
+                                <SwiperSlide key={index}>
+                                    
+                                    <div className="servBox" >
+                                 
+                                        <img src={item.imgUrl} alt={item.title} style={{position:"relative"}} />
+
+                                        <div className="services-content" style={{position:"relative"}}>
+                                            <EditButton type="main" item={`serviceUrl${index}`} text="이동할 주소 (https나 http를 포함한 전체주소)" />
+                                            <h3>
+                                                <Link href={item.url ? item.url : "/" }>
+                                                    <a>{item.title}</a>
+                                                </Link>
+                                                <EditButton type="main" item={`serviceTitle${index}`} text="제목" />
+                                            </h3>
+                                            {/* ⭐ 삼성웰니스(index가 5번)만 글자 크기를 12px로 살짝 줄이고, 자간을 좁혀 깔끔하게 세팅합니다. 나머지는 원래 스타일대로 둡니다. */}
+                                            <p style={{
+                                                fontWeight: "normal", 
+                                                position: "relative", 
+                                                fontSize: index === 5 ? "16px" : "16px", 
+                                                lineHeight: index === 5 ? "1.6" : "1.6",
+                                                letterSpacing: index === 5 ? "-0.5px" : "normal"
+                                            }}>
+                                                {item.text}
+                                                <EditButton type="main" item={`serviceText${index}`} text="내용" />
+                                            </p>
+                                        </div><EditButton type="main" item={`serviceImgUrl${index}`} text="이미지" mode="image" defaultImg="/aboutUs1.jpg"/>
+                                    </div>
+                                    
+                                </SwiperSlide>
+                            )
+                        })}
+                        
+                    </Swiper> 
+                </div>
+            </section>
+        </>
+    );
+}
 
 export default Service;
